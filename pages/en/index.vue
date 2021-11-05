@@ -8,9 +8,17 @@
     <SliderProduct v-if="!emptyProducts" :products="products"/>
     <hr class="block-delimeter">
     <WhyBuy v-if="!emptyWhyBuy" :info="whyBuy"/>
-    <VideoBox class='videoBox' v-if="!emptyVideoBox && videoBox.video_id" :video="videoBox"/>
+    <Franchise  :franchise="franchise"/>
+    <VideoBox v-if="!emptyVideoBox && videoBox.video_id" :video="videoBox"/>
+    <Leasing  v-if="!emptyLeasing" :leasing="leasing"/>
     <ScopeApplication v-if="!emptyScope" :scope="scope"/> 
-    <Partners v-if="!emptyPartners" :partners="partners"/>     
+    <Partners v-if="!emptyPartners" :partners="partners"/> 
+    <hr class="block-delimeter hidden">
+    <BlockNews v-if="!emptyNews" :news="news"/>
+    <div class="video-block">
+      <BlockVideo class="container" v-if="!emptyVideo" :video="video"/> 
+    </div>
+    
     <Map v-if="!emptyMap" :map="map"/>
   </div>
 </template>
@@ -32,9 +40,11 @@ export default {
       partners: {},
       whyBuy: {},
       scope: {},
+      leasing: {},
       products: {},
       mainScreenMainPage: {},
-      meta: {}
+      meta: {},
+      franchise: {}
     }
   },
   head(){
@@ -56,75 +66,86 @@ export default {
 
   },
   async fetch() {
-    let lang = this.$store.state.lang;
 
     try {
-      this.videoBox = await fetch(process.env.baseUrl + `video_franchise/1?lang=${lang}`)
-      /* this.videoBox = await fetch(process.env.fakeUrl + 'video_franchise_1') */
+      this.videoBox = await fetch(process.env.fakeUrl + 'video_franchise_1')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-      this.meta = await fetch(process.env.baseUrl + `meta_page?lang=${lang}`)
+      this.franchise = await fetch(process.env.fakeUrl + 'franchise_main')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-      this.map = await fetch(process.env.baseUrl + `contact_main?lang=${lang}`)
+      this.meta = await fetch(process.env.fakeUrl + `meta_page`)
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-      this.news = await fetch(process.env.baseUrl + `news?main=1&lang=${lang}`)
+      this.map = await fetch(process.env.fakeUrl + `contact_main`)
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-      this.video = await fetch(process.env.baseUrl +  `video_blog?lang=${lang}`)
+      this.news = await fetch(process.env.fakeUrl + `news`)
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-      this.partners = await fetch(process.env.baseUrl + `our_partners?lang=${lang}`)
+      this.video = await fetch(process.env.fakeUrl +  `video_blog`)
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-      this.whyBuy = await fetch(process.env.baseUrl + `why_buy?lang=${lang}`)
+      this.partners = await fetch(process.env.fakeUrl + `our_partners`)
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-      this.scope = await fetch(process.env.baseUrl + `scope_application?lang=${lang}`)
-      .then(res => res.json())
-    } catch (error) {
-      console.error(`Страница ${this.$route.fullPath}: `,  error)
-    }
-
-
-    try {
-      this.products = await fetch(process.env.baseUrl + `catalog?lang=${lang}`)
+      this.whyBuy = await fetch(process.env.fakeUrl + `why_buy`)
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-      this.mainScreenMainPage = await fetch(process.env.baseUrl + `main_screen_main_page?lang=${lang}`)
+      this.scope = await fetch(process.env.fakeUrl + `scope_application`)
+      .then(res => res.json())
+    } catch (error) {
+      console.error(`Страница ${this.$route.fullPath}: `,  error)
+    }
+
+    try {
+      this.leasing = await fetch(process.env.fakeUrl + `leasing`)
+      .then(res => res.json())
+    } catch (error) {
+      console.error(`Страница ${this.$route.fullPath}: `,  error)
+    }
+
+    try {
+      this.products = await fetch(process.env.fakeUrl + `catalog_list`)
+      .then(res => res.json())
+    } catch (error) {
+      console.error(`Страница ${this.$route.fullPath}: `,  error)
+    }
+
+    try {
+      this.mainScreenMainPage = await fetch(process.env.fakeUrl + `main_screen_main_page`)
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
@@ -174,6 +195,12 @@ export default {
       }
       return true;
     },
+    emptyLeasing(){
+      for (let key in this.leasing) {
+        return false;
+      }
+      return true;
+    },
     emptyProducts(){
       for (let key in this.products) {
         return false;
@@ -182,6 +209,12 @@ export default {
     },
     emptyMainScreenMainPage(){
       for (let key in this.mainScreenMainPage) {
+        return false;
+      }
+      return true;
+    },
+    emptyFranchise(){
+      for (let key in this.franchise) {
         return false;
       }
       return true;
@@ -203,9 +236,6 @@ export default {
     background: var(--color-10);
     font-size: 1rem;
     padding: 8.1em 0 12.1em;
-  }
-  .videoBox{
-    margin: 16.1em auto 17em;
   }
   @media screen and (max-width: 1100px) {
     .video-block{
@@ -230,9 +260,6 @@ export default {
     }
     .block-delimeter.hidden{
       display: none;
-    }
-    .videoBox{
-      margin: 6.8em auto 12em;
     }
   }
 </style>

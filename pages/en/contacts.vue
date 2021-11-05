@@ -67,33 +67,35 @@ export default {
     }
   },
  async fetch() {
-   let lang = this.$store.state.lang;
 
     try {
-      /* this.form = await fetch(process.env.fakeUrl + 'form_contacts') */
-      this.form = await fetch(process.env.baseUrl + `form_info/${this.formHandle}?lang=${lang}`)
+      this.form = await fetch(process.env.fakeUrl + 'form_contacts')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-      this.meta = await fetch(process.env.baseUrl + `meta_page?lang=${lang}`)
+      this.meta = await fetch(process.env.fakeUrl + `meta_page`)
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-      this.map = await fetch(process.env.baseUrl + `contact_main?lang=${lang}`)
+      this.map = await fetch(process.env.fakeUrl + `contact_main`)
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
-    /* this.contacts = await fetch(process.env.fakeUrl + 'contacts') */
-    this.contacts = await fetch(process.env.baseUrl + `contacts?lang=${lang}`)
-    .then(res => res.json())
+    try {
+      this.contacts = await fetch(process.env.fakeUrl + 'contacts')
+      .then(res => res.json())
+    } catch (error) {
+      console.error(`Страница ${this.$route.fullPath}: `,  error)
+    }
+
 
   },
   computed:{

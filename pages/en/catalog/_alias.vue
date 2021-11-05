@@ -21,6 +21,9 @@
       <Certificates class="certificates-catalog" v-if="catalogDetail.certificates.list.length" :certificates="catalogDetail.certificates" />
     </div>
     <hr class="block-delimeter">
+    <Leasing v-if="!emptyLeasing" :leasing="leasing"/>
+    <hr class="block-delimeter">
+    <Faq :faq="catalogDetail.faq"/>
     <div class="reviews" v-if="catalogDetail.video_comment.list.length">
       <BlockVideo class="container" :video="catalogDetail.video_comment"/> 
     </div>
@@ -44,6 +47,8 @@ data(){
       formHandle: 'catalog_detail',
       request: 'consult',
       catalogDetail: {},
+      leasing: {},
+      faq: {},
       meta: {},
       form: {},
       fields:{
@@ -97,27 +102,31 @@ data(){
     return Boolean(params.alias)
   },
   async fetch() {
-    let lang = this.$store.state.lang;
 
     try {
-      /* this.form = await fetch(process.env.fakeUrl + 'form_catalog_detail') */
-      this.form = await fetch(process.env.baseUrl + `form_info/${this.formHandle}?lang=${lang}`)
+      this.form = await fetch(process.env.fakeUrl + 'form_catalog_detail')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-      /* this.catalogDetail = await fetch(process.env.fakeUrl + 'catalog_detail') */
-      this.catalogDetail = await fetch(process.env.baseUrl + `catalog/${this.$route.params.alias}?lang=${lang}`)
+      this.catalogDetail = await fetch(process.env.fakeUrl + 'catalog_detail')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
-    
+
     try {
-      /* this.meta = await fetch(process.env.fakeUrl + 'meta_page') */
-      this.meta = await fetch(process.env.baseUrl + `meta_page?lang=${lang}`)
+      this.leasing = await fetch(process.env.fakeUrl + 'leasing')
+      .then(res => res.json())
+    } catch (error) {
+      console.error(`Страница ${this.$route.fullPath}: `,  error)
+    }
+
+
+    try {
+      this.meta = await fetch(process.env.fakeUrl + 'meta_page')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
@@ -126,6 +135,12 @@ data(){
   computed:{
     emptyCatalogDetail(){
       for (let key in this.catalogDetail) {
+        return false;
+      }
+      return true;
+    },
+    emptyLeasing(){
+      for (let key in this.leasing) {
         return false;
       }
       return true;
@@ -154,7 +169,10 @@ data(){
   .breadcrumbs_catalog{
     margin: 4.7em 0 8em;
   }
-
+  .quiz-block{
+    font-size: 1rem;
+    padding:13.6em 0 17em;
+  }
   .reviews{
     font-size: 1rem;
     padding: 13.6em 0 4.7em;
@@ -192,6 +210,7 @@ data(){
   }
   @media screen and (max-width: 1100px) {
     .reviews,
+    .quiz-block,
     .video-certificates{
       font-size: .8rem;
     }
