@@ -16,13 +16,12 @@
 <script>
 import BlockVideo from "@/components/blog/BlockVideo"
 export default {
-  middleware: ['fetchDetailPageNews'],
   components:{
     BlockVideo
   },
   data() {
     return {  
-      news: this.$store.state.detailPage,
+      news: {},
       video: {},
       breadcrumbs: {},
       meta: {}
@@ -46,17 +45,23 @@ export default {
     }
   },
   async fetch() {
-    let lang = this.$store.state.lang;
+    
     try {
-      this.video = await fetch(process.env.baseUrl + `video_blog?lang=${lang}`)
+      this.video = await fetch(process.env.fakeUrl + `video_blog`)
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-      /* this.meta = await fetch(process.env.fakeUrl + 'meta_page') */
-      this.meta = await fetch(process.env.baseUrl + `meta_page?lang=${lang}`)
+      this.meta = await fetch(process.env.fakeUrl + `meta_page`)
+      .then(res => res.json())
+    } catch (error) {
+      console.error(`Страница ${this.$route.fullPath}: `,  error)
+    }
+
+    try {
+      this.news = await fetch(process.env.fakeUrl + `news_detail`)
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
@@ -64,7 +69,7 @@ export default {
 
   },
   validate({store}) {
-   return store.state.validationDetailPage;
+   return true;
   },
   computed:{
     emptyNews(){

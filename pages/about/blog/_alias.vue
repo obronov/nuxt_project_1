@@ -11,11 +11,11 @@
 <script>
 
 export default {
-  middleware: ['fetchDetailPageBlog'],
-data() {
+
+  data() {
     return {  
       blog: {},
-      blogDetail: this.$store.state.detailPage,
+      blogDetail: {},
       meta: {}
     }
   },
@@ -37,25 +37,29 @@ data() {
     }
   },
   async fetch() {
-    let lang = this.$store.state.lang;
     try {
-      this.blog = await fetch(process.env.baseUrl + `blog?lang=${lang}`)
-      /* this.blog = await fetch(process.env.fakeUrl + 'blog') */
+      this.blog = await fetch(process.env.fakeUrl + `blog`)
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-      /* this.meta = await fetch(process.env.fakeUrl + 'meta_page') */
-      this.meta = await fetch(process.env.baseUrl + `meta_page?lang=${lang}`)
+      this.blogDetail = await fetch(process.env.fakeUrl + `blog_detail`)
+      .then(res => res.json())
+    } catch (error) {
+      console.error(`Страница ${this.$route.fullPath}: `,  error)
+    }
+
+    try {
+      this.meta = await fetch(process.env.fakeUrl + `meta_page`)
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
   },
   validate({store}) {
-   return store.state.validationDetailPage;
+   return true;
   },
   computed:{
     emptyBlog(){

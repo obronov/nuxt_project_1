@@ -41,17 +41,16 @@ export default {
     }
   },
   async fetch() {
-    let lang = this.$store.state.lang;
+    
      try {
-      this.meta = await fetch(process.env.baseUrl + `meta_page?lang=${lang}`)
+      this.meta = await fetch(process.env.fakeUrl + `meta_page`)
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {      
-      this.news = await fetch(process.env.baseUrl + `news?main=0&${this.getNumberPage()}&lang=${lang}`)
-      /* this.news = await fetch(process.env.fakeUrl + 'news') */
+      this.news = await fetch(process.env.fakeUrl + 'news')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)

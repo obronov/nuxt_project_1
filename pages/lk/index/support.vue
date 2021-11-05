@@ -52,9 +52,9 @@ export default {
   },
   async fetch() {
     try {
-      this.support = await this.fetchLkAuth(process.env.baseUrl + 'lk_support');
-      /*  this.support = await fetch(process.env.fakeUrl + 'lk_support')
-      .then(res => res.json()) */
+      /* this.support = await this.fetchLkAuth(process.env.baseUrl + 'lk_support'); */
+      this.support = await fetch(process.env.fakeUrl + 'lk_support')
+      .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }

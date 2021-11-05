@@ -1,7 +1,7 @@
 
 export const state = () => ({
   isAuthenticated: false,
-  authToken: "",
+  authToken: "Token",
   common: '',
   lang: 'ru',
   modalVideoId: '',

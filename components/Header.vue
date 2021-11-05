@@ -24,8 +24,6 @@
           <div class="header-desktop-lang">
             <div class="header-desktop-lang__selected">
               <img v-if="$store.state.lang == 'en'" :src="require('~/assets/images/design/en.png')" alt="en">
-              <img v-else-if="$store.state.lang == 'es'" :src="require('~/assets/images/design/es.png')" alt="es">
-              <img v-else-if="$store.state.lang == 'zh'" :src="require('~/assets/images/design/zh.png')" alt="zh">
               <img v-else :src="require('~/assets/images/design/ru.png')" alt="ru">
               <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M8.89861 0.101387C9.0338 0.236569 9.0338 0.455743 8.89861 0.590925L4.74474 4.74479C4.60956 4.87998 4.39039 4.87998 4.2552 4.74479L0.101334 0.590925C-0.0338478 0.455743 -0.0338478 0.236569 0.101334 0.101387C0.236517 -0.0337955 0.45569 -0.0337955 0.590873 0.101387L4.49997 4.01049L8.40908 0.101387C8.54426 -0.0337956 8.76343 -0.0337956 8.89861 0.101387Z"/>
@@ -35,8 +33,6 @@
               <li class="desktop-lang-list__item" v-for="(lang, langIndex) in langList" :key="langIndex">
                 <a class="desktop-lang-list__link" :href="`/${lang}`">
                   <img v-if="lang == 'en'" :src="require('~/assets/images/design/en.png')" alt="en">
-                  <img v-else-if="lang == 'es'" :src="require('~/assets/images/design/es.png')" alt="es">
-                  <img v-else-if="lang == 'zh'" :src="require('~/assets/images/design/zh.png')" alt="zh">
                   <img v-else :src="require('~/assets/images/design/ru.png')" alt="ru">
                 </a>
               </li>
@@ -115,16 +111,12 @@
               <div class="header-mobile-lang">
                 <div class="header-mobile-lang__selected">
                   <img v-if="$store.state.lang == 'en'" :src="require('~/assets/images/design/en.png')" alt="en">
-                  <img v-else-if="$store.state.lang == 'es'" :src="require('~/assets/images/design/es.png')" alt="es">
-                  <img v-else-if="$store.state.lang == 'zh'" :src="require('~/assets/images/design/zh.png')" alt="zh">
                   <img v-else :src="require('~/assets/images/design/ru.png')" alt="ru">
                 </div>
                 <ul class="mobile-lang-list">
                   <li class="mobile-lang-list__item" v-for="(lang, langIndex) in langList" :key="langIndex">
                     <a class="mobile-lang-list__link" :href="`/${lang}`">
                       <img v-if="lang == 'en'" :src="require('~/assets/images/design/en.png')" alt="en">
-                      <img v-else-if="lang == 'es'" :src="require('~/assets/images/design/es.png')" alt="es">
-                      <img v-else-if="lang == 'zh'" :src="require('~/assets/images/design/zh.png')" alt="zh">
                       <img v-else :src="require('~/assets/images/design/ru.png')" alt="ru">
                     </a>
                   </li>
@@ -198,7 +190,7 @@ export default {
   },
   computed:{
     langList(){
-      let list = ['en', 'zh', 'es', 'ru'];
+      let list = ['en', 'ru'];
       let currentLang = this.$store.state.lang;
       let newList = [];
 
@@ -233,14 +225,6 @@ export default {
         alt = 'log out';
       }
 
-      if(this.$store.state.lang == 'es'){
-        alt = 'cerrar sesión';
-      }
-
-      if(this.$store.state.lang == 'zh'){
-        alt = '登出';
-      }
-
       return alt;
     },
     getAlt(){
@@ -248,14 +232,6 @@ export default {
 
       if(this.$store.state.lang == 'en'){
         alt = 'the logo';
-      }
-
-      if(this.$store.state.lang == 'es'){
-        alt = 'el logo';
-      }
-
-      if(this.$store.state.lang == 'zh'){
-        alt = '標誌';
       }
 
       return alt;

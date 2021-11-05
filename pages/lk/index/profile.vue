@@ -52,7 +52,7 @@ export default {
   },
   data(){
     return{
-      profile: this.$store.state.profile,
+      profile: {},
       formChangePasswordLK: {
         info: {
           title: "Изменение пароля",
@@ -93,6 +93,14 @@ export default {
         ]
       }
     } catch (error) {
+    }
+  },
+  async fetch() {
+    try {
+      this.profile = await fetch(process.env.fakeUrl + 'lk_profile')
+      .then(res => res.json())
+    } catch (error) {
+      console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
   },
   computed:{

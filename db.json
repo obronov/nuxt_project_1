@@ -1,8 +1,8 @@
 {
   "meta_page": {
     "main":{
-      "title": "заголовок",
-      "meta_title": "заголовок страницы",
+      "title": "Главная",
+      "meta_title": "Главная",
       "meta_description": "Описание страницы",
       "meta_keywords": "ключевые слова",
       "og_title": "Заголовок opengraph",
@@ -10,8 +10,8 @@
       "og_image": "http://lorempixel.com/291/62/"
     },
     "catalog":{
-      "title": "заголовок",
-      "meta_title": "заголовок страницы",
+      "title": "Каталог",
+      "meta_title": "Каталог",
       "meta_description": "Описание страницы",
       "meta_keywords": "ключевые слова",
       "og_title": "Заголовок opengraph",
@@ -19,8 +19,8 @@
       "og_image": "http://lorempixel.com/291/62/"
     },
     "buyers":{
-      "title": "заголовок",
-      "meta_title": "заголовок страницы",
+      "title": "Покупателям",
+      "meta_title": "Покупателям",
       "meta_description": "Описание страницы",
       "meta_keywords": "ключевые слова",
       "og_title": "Заголовок opengraph",
@@ -28,8 +28,8 @@
       "og_image": "http://lorempixel.com/291/62/"
     },
     "franchise":{
-      "title": "заголовок",
-      "meta_title": "заголовок страницы",
+      "title": "Франшиза",
+      "meta_title": "Франшиза",
       "meta_description": "Описание страницы",
       "meta_keywords": "ключевые слова",
       "og_title": "Заголовок opengraph",
@@ -37,8 +37,8 @@
       "og_image": "http://lorempixel.com/291/62/"
     },
     "blog":{
-      "title": "заголовок",
-      "meta_title": "заголовок страницы",
+      "title": "Блог",
+      "meta_title": "Блог",
       "meta_description": "Описание страницы",
       "meta_keywords": "ключевые слова",
       "og_title": "Заголовок opengraph",
@@ -46,8 +46,8 @@
       "og_image": "http://lorempixel.com/291/62/"
     },
     "about":{
-      "title": "заголовок",
-      "meta_title": "заголовок страницы",
+      "title": "О компании",
+      "meta_title": "О компании",
       "meta_description": "Описание страницы",
       "meta_keywords": "ключевые слова",
       "og_title": "Заголовок opengraph",
@@ -55,8 +55,8 @@
       "og_image": "http://lorempixel.com/291/62/"
     },
     "news":{
-      "title": "заголовок",
-      "meta_title": "заголовок страницы",
+      "title": "Новости",
+      "meta_title": "Новости",
       "meta_description": "Описание страницы",
       "meta_keywords": "ключевые слова",
       "og_title": "Заголовок opengraph",
@@ -64,8 +64,8 @@
       "og_image": "http://lorempixel.com/291/62/"
     },
     "vacancies":{
-      "title": "заголовок",
-      "meta_title": "заголовок страницы",
+      "title": "Работа",
+      "meta_title": "Работа",
       "meta_description": "Описание страницы",
       "meta_keywords": "ключевые слова",
       "og_title": "Заголовок opengraph",
@@ -73,8 +73,8 @@
       "og_image": "http://lorempixel.com/291/62/"
     },
     "contacts":{
-      "title": "заголовок",
-      "meta_title": "заголовок страницы",
+      "title": "Контакты",
+      "meta_title": "Контакты",
       "meta_description": "Описание страницы",
       "meta_keywords": "ключевые слова",
       "og_title": "Заголовок opengraph",
@@ -88,35 +88,35 @@
       {
         "id": 1,
         "read": "n",
-        "date": 23214234324,
+        "date": 1636074504,
         "title": "Запущен в производство Стройматик СГК-500",
         "description": ""
       },
       {
         "id": 2,
         "read": "n",
-        "date": 23214234324,
+        "date": 1636074504,
         "title": "Запущен в производство Стройматик СГК-500",
         "description": "<ul><li>fgfgfg</li><li>fgfg</li><li>fgfg</li></ul><p>Запущен в производство Стройматик СГК-500. </p> <p>Запущен в производство Стройматик СГК-500. </p> "
       },
       {
         "id": 3,
         "read": "y",
-        "date": 23214234324,
+        "date": 1636074504,
         "title": "Запущен в производство ",
         "description": "<p>Запущен в производство Стройматик СГК-500. Профессиональная модель для выполнения больших объёмов работы.</p>"
       },
       {
         "id": 4,
         "read": "y",
-        "date": 23214234324,
+        "date": 1636074504,
         "title": "Запущен в производство ",
         "description": "<p>Запущен в производство Стройматик СГК-500. Профессиональная модель для выполнения больших объёмов работы.</p>"
       },
       {
         "id": 5,
         "read": "y",
-        "date": 23214234324,
+        "date": 1636074504,
         "title": "Запущен в производство ",
         "description": "<p>Запущен в производство Стройматик СГК-500. Профессиональная модель для выполнения больших объёмов работы.</p>"
       }
@@ -166,12 +166,12 @@
           {"title": "#Отзывы", 
             "alias": "otzyvy"}
         ],
-        "video_id":"ELCODmToZiI",
+        "video_id":"sRE5iQCdRvE",
         "img":"",
         "alt":"",
         "title": "Игорь, Франчайзи",
         "subtitle": "Петрозаводск",
-        "date": 23214234324,
+        "date": 1636074504,
         "alias": "SGK_200_launch"
       },
       {
@@ -179,12 +179,12 @@
         "hashtag_list":[
       {"title": "Видео", "alias": "video"}
     ],
-        "video_id":"ghjhj",
+        "video_id":"sRE5iQCdRvE",
         "img":"",
         "alt":"",
         "title": "Игорь, Франчайзи",
         "subtitle": "Петрозаводск",
-        "date": 23214234324,
+        "date": 1636074504,
         "alias": "SGK_200_launch"
       },
       {
@@ -192,12 +192,12 @@
         "hashtag_list":[
       {"title": "Видео", "alias": "video"}
     ],
-        "video_id":"ghjhj",
+        "video_id":"sRE5iQCdRvE",
         "img":"",
         "alt":"",
         "title": "Игорь, Франчайзи",
         "subtitle": "Петрозаводск",
-        "date": 23214234324,
+        "date": 1636074504,
         "alias": "SGK_200_launch"
       },
       {
@@ -205,12 +205,12 @@
         "hashtag_list":[
       {"title": "Видео", "alias": "video"}
     ],
-        "video_id":"ghjhj",
+        "video_id":"sRE5iQCdRvE",
         "img":"",
         "alt":"",
         "title": "Игорь, Франчайзи",
         "subtitle": "Петрозаводск",
-        "date": 23214234324,
+        "date": 1636074504,
         "alias": "SGK_200_launch"
       }
     ]
@@ -692,16 +692,16 @@
   },
   "blog_detail":{
     "title": "Фундамент под дом из бруса. 2 этажа",
-    "date": 23214234324,
+    "date": 1636074504,
     "type": "text",
-    "video_id":"twdgCRea50U",
+    "video_id":"sRE5iQCdRvE",
     "img":"http://lorempixel.com/1011/600/",
     "alt":"сгб",
-    "text": "<p>Мы первыми в мире разработали и создали мини-копер, предназначенный для забивки ж/б свай в частном строительстве.</p>"
+    "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>"
   },
   "blog":{
     "title":"Блог",
-    "description":"<p>Самое актуальное и полезное смотрите в нашем блоге</p>", 
+    "description":"<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>", 
     "prev": "...",
     "next": "2",
     "tag_all_title": "Все",
@@ -725,12 +725,12 @@
           "alias": "completed_projects"
           }
         ],
-        "video_id":"LZOhBQE3mtc",
+        "video_id":"sRE5iQCdRvE",
         "img":"",
         "alt":"",
         "title": "Игорь, Франчайзи",
         "subtitle": "Петрозаводск",
-        "date": 23214234324,
+        "date": 1636074504,
         "alias": "SGK_200_launch"
       },
       {
@@ -741,12 +741,12 @@
           "alias": "completed_projects"
           }
         ],
-        "video_id":"LZOhBQE3mtc",
+        "video_id":"sRE5iQCdRvE",
         "img":"",
         "alt":"",
         "title": "Игорь, Франчайзи",
         "subtitle": "Петрозаводск",
-        "date": 23214234324,
+        "date": 1636074504,
         "alias": "SGK_200_launch"
       },
       {
@@ -757,12 +757,12 @@
           "alias": "completed_projects"
           }
         ],
-        "video_id":"LZOhBQE3mtc",
+        "video_id":"sRE5iQCdRvE",
         "img":"",
         "alt":"",
         "title": "Игорь, Франчайзи",
         "subtitle": "Петрозаводск",
-        "date": 23214234324,
+        "date": 1636074504,
         "alias": "SGK_200_launch"
       },
       {
@@ -773,12 +773,12 @@
           "alias": "completed_projects"
           }
         ],
-        "video_id":"LZOhBQE3mtc",
+        "video_id":"sRE5iQCdRvE",
         "img":"",
         "alt":"",
         "title": "Игорь, Франчайзи",
         "subtitle": "Петрозаводск",
-        "date": 23214234324,
+        "date": 1636074504,
         "alias": "SGK_200_launch"
       },
       {
@@ -789,12 +789,12 @@
           "alias": "completed_projects"
           }
         ],
-        "video_id":"LZOhBQE3mtc",
+        "video_id":"sRE5iQCdRvE",
         "img":"",
         "alt":"",
         "title": "Игорь, Франчайзи",
         "subtitle": "Петрозаводск",
-        "date": 23214234324,
+        "date": 1636074504,
         "alias": "SGK_200_launch"
       },
       {
@@ -805,12 +805,12 @@
           "alias": "completed_projects"
           }
         ],
-        "video_id":"LZOhBQE3mtc",
+        "video_id":"sRE5iQCdRvE",
         "img":"",
         "alt":"",
         "title": "Игорь, Франчайзи",
         "subtitle": "Петрозаводск",
-        "date": 23214234324,
+        "date": 1636074504,
         "alias": "SGK_200_launch"
       },
       {
@@ -821,12 +821,12 @@
           "alias": "completed_projects"
           }
         ],
-        "video_id":"LZOhBQE3mtc",
+        "video_id":"sRE5iQCdRvE",
         "img":"",
         "alt":"",
         "title": "Игорь, Франчайзи",
         "subtitle": "Петрозаводск",
-        "date": 23214234324,
+        "date": 1636074504,
         "alias": "SGK_200_launch"
       },
       {
@@ -837,32 +837,12 @@
           "alias": "completed_projects"
           }
         ],
-        "video_id":"LZOhBQE3mtc",
+        "video_id":"sRE5iQCdRvE",
         "img":"",
         "alt":"",
         "title": "Игорь, Франчайзи",
         "subtitle": "Петрозаводск",
-        "date": 23214234324,
-        "alias": "SGK_200_launch"
-      },
-      {
-        "type": "video",
-        "hashtag_list":[
-          {
-            "title": "#Видео", 
-            "alias": "video"
-          },
-          {
-          "title": "#Выполненные проекты", 
-          "alias": "completed_projects"
-          }
-        ],
-        "video_id":"LZOhBQE3mtc",
-        "img":"",
-        "alt":"",
-        "title": "Игорь, Франчайзи",
-        "subtitle": "Петрозаводск",
-        "date": 23214234324,
+        "date": 1636074504,
         "alias": "SGK_200_launch"
       },
       {
@@ -877,12 +857,12 @@
           "alias": "completed_projects"
           }
         ],
-        "video_id":"LZOhBQE3mtc",
+        "video_id":"sRE5iQCdRvE",
         "img":"",
         "alt":"",
         "title": "Игорь, Франчайзи",
         "subtitle": "Петрозаводск",
-        "date": 23214234324,
+        "date": 1636074504,
         "alias": "SGK_200_launch"
       },
       {
@@ -897,12 +877,32 @@
           "alias": "completed_projects"
           }
         ],
-        "video_id":"LZOhBQE3mtc",
+        "video_id":"sRE5iQCdRvE",
         "img":"",
         "alt":"",
         "title": "Игорь, Франчайзи",
         "subtitle": "Петрозаводск",
-        "date": 23214234324,
+        "date": 1636074504,
+        "alias": "SGK_200_launch"
+      },
+      {
+        "type": "video",
+        "hashtag_list":[
+          {
+            "title": "#Видео", 
+            "alias": "video"
+          },
+          {
+          "title": "#Выполненные проекты", 
+          "alias": "completed_projects"
+          }
+        ],
+        "video_id":"sRE5iQCdRvE",
+        "img":"",
+        "alt":"",
+        "title": "Игорь, Франчайзи",
+        "subtitle": "Петрозаводск",
+        "date": 1636074504,
         "alias": "SGK_200_launch"
       },
       {
@@ -913,12 +913,12 @@
             "alias": "completed_projects"
           }
         ],
-        "video_id":"",
+        "video_id":"sRE5iQCdRvE",
         "img":"http://lorempixel.com/480/360/",
         "alt":"сгб",
         "title": "Фундамент под дом из бруса. 2 этажа",
         "subtitle": "",
-        "date": 23214234324,
+        "date": 1636074504,
         "alias": "fdghfdg"
       },
       {
@@ -929,12 +929,12 @@
             "alias": "completed_projects"
           }
         ],
-        "video_id":"",
+        "video_id":"sRE5iQCdRvE",
         "img":"http://lorempixel.com/480/360/",
         "alt":"сгб",
         "title": "Фундамент под дом из бруса. 2 этажа",
         "subtitle": "",
-        "date": 23214234324,
+        "date": 1636074504,
         "alias": "fdghfdg"
       },
       {
@@ -945,12 +945,12 @@
             "alias": "completed_projects"
           }
         ],
-        "video_id":"",
+        "video_id":"sRE5iQCdRvE",
         "img":"",
         "alt":"",
         "title": "Фундамент под дом из бруса. 2 этажа",
         "subtitle": "",
-        "date": 23214234324,
+        "date": 1636074504,
         "alias": "fdghfdg"
       }
     ]
@@ -963,72 +963,72 @@
   },
   "contacts":{
     "title":"Контакты",
-    "description":"<p>Обратитесь к специалисту нужного вам отдела.</p> <p>По всем остальным вопросам пишите на sales@stroimatic.com</p>", 
+    "description":"<p>Обратитесь к специалисту нужного вам отдела.</p> <p>По всем остальным вопросам пишите на test@test.com</p>", 
     "list":[
       {
         "name": "отдел маркетинга",
         "phone_list":[
-          "8 (800) 550-15-28",
-          "8 (800) 550-15-28"
+          "8 (800) 999-99-99",
+          "8 (800) 999-99-99"
         ],
         "email_list": [
-          "sales@stroimatik.com",
-          "sales@stroimatik.com"
+          "test@test.com",
+          "test@test.com"
         ] 
       },
       {
         "name": "отдел сбыта",
         "phone_list":[
-          "8 (800) 550-15-28",
-          "8 (800) 550-15-28"
+          "8 (800) 999-99-99",
+          "8 (800) 999-99-99"
         ],
         "email_list": [
-          "sales@stroimatik.com",
-          "sales@stroimatik.com"
+          "test@test.com",
+          "test@test.com"
         ] 
       },
       {
         "name": "Приемная",
         "phone_list":[
-          "8 (800) 550-15-28",
-          "8 (800) 550-15-28"
+          "8 (800) 999-99-99",
+          "8 (800) 999-99-99"
         ],
         "email_list": [
-          "sales@stroimatik.com",
-          "sales@stroimatik.com"
+          "test@test.com",
+          "test@test.com"
         ] 
       },
       {
         "name": "Отдел кадров",
         "phone_list":[
-          "8 (800) 550-15-28",
-          "8 (800) 550-15-28"
+          "8 (800) 999-99-99",
+          "8 (800) 999-99-99"
         ],
         "email_list": [
-          "sales@stroimatik.com",
-          "sales@stroimatik.com"
+          "test@test.com",
+          "test@test.com"
         ] 
       },
       {
         "name": "Производственный отдел",
         "phone_list":[
-          "8 (800) 550-15-28",
-          "8 (800) 550-15-28"
+          "8 (800) 999-99-99",
+          "8 (800) 999-99-99"
         ],
         "email_list": [
-          "sales@stroimatik.com",
-          "sales@stroimatik.com"
+          "test@test.com",
+          "test@test.com"
         ] 
       },
       {
         "name": "отдел сбыта",
         "phone_list":[
-          "8 (800) 550-15-28",
-          "8 (800) 550-15-28"
+          "8 (800) 999-99-99",
+          "8 (800) 999-99-99"
         ],
         "email_list": [
-          "sales@stroimatik.com",
-          "sales@stroimatik.com"
+          "test@test.com",
+          "test@test.com"
         ] 
       }
     ]
@@ -1272,12 +1272,12 @@
               "alias": "video "
             }
           ],
-          "video_id":"twdgCRea50U",
+          "video_id":"sRE5iQCdRvE",
           "img":"",
           "alt":"",
           "title": "Игорь, Франчайзи",
           "subtitle": "Петрозаводск",
-          "date": 23214234324,
+          "date": 1636074504,
           "alias": "dfg"
         },
         {
@@ -1285,12 +1285,12 @@
           "hashtag_list":[
             {"title": "Отзывы", "alias": "reviews "}
           ],
-          "video_id":"twdgCRea50U",
+          "video_id":"sRE5iQCdRvE",
           "img":"",
           "alt":"",
           "title": "Игорь, Франчайзи",
           "subtitle": "Петрозаводск",
-          "date": 23214234324,
+          "date": 1636074504,
           "alias": "dfg"
         },
         {
@@ -1301,12 +1301,12 @@
               "alias": "reviews "
             }
           ],
-          "video_id":"twdgCRea50U",
+          "video_id":"sRE5iQCdRvE",
           "img":"",
           "alt":"",
           "title": "Игорь, Франчайзи",
           "subtitle": "Петрозаводск",
-          "date": 23214234324,
+          "date": 1636074504,
           "alias": "fdgdg"
         }
       ]
@@ -1314,8 +1314,8 @@
   }, 
   "jobs":{
     "main_screen":{
-      "title":"Работа<br> в стройматик",
-      "description":"В настоящее время в компании Стройматик работают более 6344 человек", 
+      "title":"Работа<br> в компании",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.", 
       "link_name": "Оставить заявку",
       "img":"http://lorempixel.com/917/686/",
       "alt":"сгб"
@@ -1324,9 +1324,9 @@
     "account_hh": "https://krasnoyarsk.hh.ru/",
     "list":[
       {
-        "name": "",
-        "salary":"", 
-        "link_hh": ""
+        "name": "Водитель на сваебойную конфиденциальности",
+        "salary":"50 000", 
+        "link_hh": "https://krasnoyarsk.hh.ru/"
       },
       {
         "name": "Водитель на сваебойную конфиденциальности",
@@ -1368,7 +1368,7 @@
   "about":{
     "main_screen":{
       "title":"О компании",
-      "description":"В настоящее время представительства компании Стройматик работают более чем в 30 регионах России", 
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.", 
       "btn_name": "Оставить заявку",
       "video_file":[
         "http://new.lemarkllc.ru/local/html/video/video_mp4.mp4",
@@ -1380,7 +1380,7 @@
       "list":[
         {
           "year": "2015",
-          "text": "<p> 2015 разработана сваебойная установка СГК-150, сверхкомпактная и сверхлегкая (до 2 тонн) сваебойка на гусеничном ходу для погружения свай сечением 150х150 мм и длиной до 4 м. Начало работы в США по предоставлению услуг возведения свайных фундаментов.</p>",
+          "text": "<p> 2015 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
           "img":"http://lorempixel.com/395/212/",
           "alt":"сгб",
           "active": false
@@ -1394,35 +1394,35 @@
         },
         {
           "year": "2017",
-          "text": "<p> 2017 разработана сваебойная установка СГК-150, сверхкомпактная и сверхлегкая (до 2 тонн) сваебойка на гусеничном ходу для погружения свай сечением 150х150 мм и длиной до 4 м. Начало работы в США по предоставлению услуг возведения свайных фундаментов.</p>",
+          "text": "<p> 2017 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
           "img":"http://lorempixel.com/395/212/",
           "alt":"сгб",
           "active": false
         },
         {
           "year": "2018",
-          "text": "<p> 2018разработана сваебойная установка СГК-150, сверхкомпактная и сверхлегкая (до 2 тонн) сваебойка на гусеничном ходу для погружения свай сечением 150х150 мм и длиной до 4 м. Начало работы в США по предоставлению услуг возведения свайных фундаментов.</p>",
+          "text": "<p> 2018 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
           "img":"http://lorempixel.com/395/212/",
           "alt":"сгб",
           "active": false
         },
         {
           "year": "2019",
-          "text": "<p> 2019 разработана сваебойная установка СГК-150, сверхкомпактная и сверхлегкая (до 2 тонн) сваебойка на гусеничном ходу для погружения свай сечением 150х150 мм и длиной до 4 м. Начало работы в США по предоставлению услуг возведения свайных фундаментов.</p>",
+          "text": "<p> 2019 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
           "img":"http://lorempixel.com/395/212/",
           "alt":"сгб",
           "active": false
         },
         {
           "year": "2020",
-          "text": "<p>разработана сваебойная установка СГК-150, сверхкомпактная и сверхлегкая (до 2 тонн) сваебойка на гусеничном ходу для погружения свай сечением 150х150 мм и длиной до 4 м. Начало работы в США по предоставлению услуг возведения свайных фундаментов.</p>",
+          "text": "<p>2020 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
           "img":"http://lorempixel.com/395/212/",
           "alt":"сгб",
           "active": false
         },
         {
           "year": "2021",
-          "text": "<p> 2021разработана сваебойная установка СГК-150, сверхкомпактная и сверхлегкая (до 2 тонн) сваебойка на гусеничном ходу для погружения свай сечением 150х150 мм и длиной до 4 м. Начало работы в США по предоставлению услуг возведения свайных фундаментов.</p><p>разработана сваебойная установка СГК-150, сверхкомпактная и сверхлегкая (до 2 тонн) сваебойка на гусеничном ходу для погружения свай сечением 150х150 мм и длиной до 4 м. Начало работы в США по предоставлению услуг возведения свайных фундаментов.</p>",
+          "text": "<p> 2021 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
           "img":"http://lorempixel.com/395/212/",
           "alt":"сгб",
           "active": false
@@ -1433,37 +1433,37 @@
       "title":"Команда",
       "list":[
         {
-          "name": "Максим Егренков",
-          "position": "Генеральный конфиденциальности",
-          "img":"https://thumb.tildacdn.com/tild3730-3930-4661-b933-343236663735/-/cover/300x300/center/center/-/format/webp/photo.jpg",
+          "name": "Сотрудник 1",
+          "position": "Генеральный",
+          "img":"http://lorempixel.com/206/206/",
           "alt":"сгб"
         },
         {
-          "name": "Надежда Сущева",
+          "name": "Сотрудник 2",
           "position": "Начальник отдела продаж",
           "img":"http://lorempixel.com/206/206/",
           "alt":"сгб"
         },
         {
-          "name": "Алексей Есин",
+          "name": "Сотрудник 3",
           "position": "Специалист отдела маркетинга",
           "img":"http://lorempixel.com/206/206/",
           "alt":"сгб"
         },
         {
-          "name": "Илья Розанов",
+          "name": "Сотрудник 4",
           "position": "Специалист технической поддержки",
           "img":"http://lorempixel.com/206/206/",
           "alt":"сгб"
         },
         {
-          "name": "Илья Розанов",
+          "name": "Сотрудник 5",
           "position": "Специалист технической поддержки",
           "img":"http://lorempixel.com/206/206/",
           "alt":"сгб"
         },
         {
-          "name": "Илья Розанов",
+          "name": "Сотрудник 5",
           "position": "Специалист технической поддержки",
           "img":"http://lorempixel.com/206/206/",
           "alt":"сгб"
@@ -1471,8 +1471,8 @@
       ]
     },
     "job":{
-      "title":"Работа<br> в стройматик",
-      "description":"Приглашаем в свою команду. Мы знаем, как добиться успеха. Присоединяйся, вдохновляйся и реализуй себя!", 
+      "title":"Работа",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.", 
       "link_name": "посмотреть вакансии",
       "img":"http://lorempixel.com/1440/686/"
     },
@@ -1517,24 +1517,24 @@
         {
           "img":"http://lorempixel.com/599/337/",
           "alt":"сгб",
-          "name": "Почему строительные компании доверяют именно нам и выбирают сваебойные установки 'Стройматик'?!",
+          "name": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
           "alias": "ghgfh",
-          "date": 232142343245
+          "date": 1636074504
         },
         {
           "img":"http://lorempixel.com/599/337/",
           "alt":"сгб",
-          "name": "Почему строительные компании доверяют именно нам и выбирают сваебойные установки 'Стройматик'?!",
+          "name": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
           "alias": "jhkujh66",
-          "date": 23214234324
+          "date": 1636074504
         }
       ]
     }
   },
   "franchise":{
     "main_screen":{
-      "title":"ФРАНШИЗА СТРОЙМАТИК",
-      "description":"Cтаньте частью успешной строительной сети и зарабатывайте от 200 000 ₽ в месяц", 
+      "title":"ФРАНШИЗА Компании",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.", 
       "link_name": "Оставить заявку",
       "list":[
         {
@@ -1553,7 +1553,7 @@
     },    
     "promo":{
       "text": "<p>ОТКРОЙТЕ СОБСТВЕННЫЙ БИЗНЕС ПО ВОЗВЕДЕНИЮ ФУНДАМЕНТОВ</p>",
-      "video_id": "bBRTDSLzm6I"
+      "video_id":"sRE5iQCdRvE"
     },
     "map":{
       "title": "Карта свободных<br> регионов",
@@ -1692,12 +1692,12 @@
               "alias": "video "
             }
           ],
-          "video_id":"twdgCRea50U",
+          "video_id":"sRE5iQCdRvE",
           "img":"",
           "alt":"",
           "title": "Игорь, Франчайзи",
           "subtitle": "Петрозаводск",
-          "date": 23214234324,
+          "date": 1636074504,
           "alias": "dfg"
         },
         {
@@ -1705,12 +1705,12 @@
           "hashtag_list":[
             {"title": "Отзывы", "alias": "reviews "}
           ],
-          "video_id":"twdgCRea50U",
+          "video_id":"sRE5iQCdRvE",
           "img":"",
           "alt":"",
           "title": "Игорь, Франчайзи",
           "subtitle": "Петрозаводск",
-          "date": 23214234324,
+          "date": 1636074504,
           "alias": "dfg"
         },
         {
@@ -1721,12 +1721,12 @@
               "alias": "reviews "
             }
           ],
-          "video_id":"twdgCRea50U",
+          "video_id":"sRE5iQCdRvE",
           "img":"",
           "alt":"",
           "title": "Игорь, Франчайзи",
           "subtitle": "Петрозаводск",
-          "date": 23214234324,
+          "date": 1636074504,
           "alias": "fdgdg"
         }
       ]
@@ -1863,12 +1863,12 @@
     }
   },
   "catalog_detail":{ 
-    "name": "СТРОЙМАТИК СГК-200",
-    "description":"Профессиональная модель для выполнения больших объёмов работы", 
+    "name": "Установка СГК-200",
+    "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.", 
     "link_name": "Оставить заявку",
     "video":{
       "name": "Видеообзор СТРОЙМАТИК СГК-200",
-      "video_id": "PQpZZn3-UI8"
+      "video_id": "sRE5iQCdRvE"
     },    
     "model_3d": "<script async src='https://api.cappasity.com/api/player/cappasity-ai'></script><iframe allowfullscreen mozallowfullscreen='true' webkitallowfullscreen='true' width='100%' height='100%' frameborder='0' style='border:0;' src='https://api.cappasity.com/api/player/4b1cf700-924c-434f-ad96-ac965cb8e6f2/embedded?autorun=0&closebutton=1&logo=1&analytics=1&enablestoreurl=0&hidehints=0&&autorotate=0&autorotatetime=10.0&autorotatedelay=2.0&autorotatedir=1&hidefullscreen=1&hideautorotateopt=1&hidesettingsbtn=0&enableimagezoom=1&zoomquality=1&hidezoomopt=0&arbutton=1'></iframe>",
     "video_comment":{
@@ -1880,12 +1880,12 @@
           "hashtag_list":[
             {"title": "Отзывы", "alias": "reviews "}
           ],
-          "video_id":"twdgCRea50U",
+          "video_id":"sRE5iQCdRvE",
           "img":"",
           "alt":"",
           "title": "Игорь, Франчайзи",
           "subtitle": "Петрозаводск",
-          "date": 23214234324,
+          "date": 1636074504,
           "alias": "fdgdg"
         },
         {
@@ -1893,12 +1893,12 @@
           "hashtag_list":[
             {"title": "Отзывы", "alias": "reviews "}
           ],
-          "video_id":"twdgCRea50U",
+          "video_id":"sRE5iQCdRvE",
           "img":"",
           "alt":"",
           "title": "Игорь, Франчайзи",
           "subtitle": "Петрозаводск",
-          "date": 23214234324,
+          "date": 1636074504,
           "alias": "fdgdg"
         },
         {
@@ -1906,12 +1906,12 @@
           "hashtag_list":[
             {"title": "Отзывы", "alias": "reviews "}
           ],
-          "video_id":"twdgCRea50U",
+          "video_id":"sRE5iQCdRvE",
           "img":"",
           "alt":"",
           "title": "Игорь, Франчайзи",
           "subtitle": "Петрозаводск",
-          "date": 23214234324,
+          "date": 1636074504,
           "alias": "fdgdg"
         }
       ]
@@ -2022,12 +2022,12 @@
       "service_centres": "Сервисные центры"
     },
     "phone_list": [
-      "8 (800) 550-15-28",
+      "8 (800) 999-99-99",
       "8 (921) 134-03-06"
     ],
     "email_list": [
-      "sales@stroimatik.com",
-      "sales@stroimatik.com"
+      "test@test.com",
+      "test@test.com"
     ],
     "coordinates": [
       {
@@ -2054,12 +2054,12 @@
         "hashtag_list":[
           {"title": "Видео", "alias": "video"}
         ],
-        "video_id":"twdgCRea50U",
+        "video_id":"sRE5iQCdRvE",
         "img":"",
         "alt":"",
         "title": "Игорь, Франчайзи",
         "subtitle": "",
-        "date": 2321423432,
+        "date": 1636074504,
         "alias": "SGK_200_launch"
       },
       {
@@ -2067,12 +2067,12 @@
         "hashtag_list":[
           {"title": "Видео", "alias": "video"}
         ],
-        "video_id":"twdgCRea50U",
+        "video_id":"sRE5iQCdRvE",
         "img":"",
         "alt":"",
         "title": "Игорь, Франчайзи",
         "subtitle": "Петрозаводск",
-        "date": 2321423432,
+        "date": 1636074504,
         "alias": "SGK_200_launch"
       },
       {
@@ -2080,22 +2080,22 @@
         "hashtag_list":[
           {"title": "Видео", "alias": "video"}
         ],
-        "video_id":"twdgCRea50U",
+        "video_id":"sRE5iQCdRvE",
         "img":"",
         "alt":"",
         "title": "Игорь, Франчайзи",
         "subtitle": "Петрозаводск",
-        "date": 2321423432,
+        "date": 1636074504,
         "alias": "SGK_200_launch"
       }
     ]
   },
   "news_detail":{
-    "title": "Почему строительные компании доверяют именно нам и выбирают сваебойные установки 'Стройматик'?!",
-    "date": 23214234324,
+    "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "date": 1636074504,
     "img":"http://lorempixel.com/908/617/",
     "alt":"сгб",
-    "text": "<p>Мы первыми в мире разработали и создали мини-копер, предназначенный для забивки ж/б свай в частном строительстве.</p>",
+    "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
     "video_blog":{
       "title":"Сваебойная установка в деле", 
       "link_name": "смотреть еще",
@@ -2105,12 +2105,12 @@
           "hashtag_list":[
       {"title": "Видео", "alias": "video"}
     ],
-          "video_id":"ghjhj",
+          "video_id": "sRE5iQCdRvE",
           "img":"",
           "alt":"",
           "title": "Игорь, Франчайзи",
           "subtitle": "Петрозаводск",
-          "date": 2321423432,
+          "date": 1636074504,
           "alias": "SGK_200_launch"
         },
         {
@@ -2118,12 +2118,12 @@
           "hashtag_list":[
       {"title": "Видео", "alias": "video"}
     ],
-          "video_id":"ghjhj",
+          "video_id": "sRE5iQCdRvE",
           "img":"",
           "alt":"",
           "title": "Игорь, Франчайзи",
           "subtitle": "Петрозаводск",
-          "date": 2321423432,
+          "date": 1636074504,
           "alias": "SGK_200_launch"
         },
         {
@@ -2131,12 +2131,12 @@
           "hashtag_list":[
       {"title": "Видео", "alias": "video"}
     ],
-          "video_id":"ghjhj",
+          "video_id": "sRE5iQCdRvE",
           "img":"",
           "alt":"",
           "title": "Игорь, Франчайзи",
           "subtitle": "Петрозаводск",
-          "date": 2321423432,
+          "date": 1636074504,
           "alias": "SGK_200_launch"
         },
         {
@@ -2144,12 +2144,12 @@
           "hashtag_list":[
       {"title": "Видео", "alias": "video"}
     ],
-          "video_id":"ghjhj",
+          "video_id": "sRE5iQCdRvE",
           "img":"",
           "alt":"",
           "title": "Игорь, Франчайзи",
           "subtitle": "Петрозаводск",
-          "date": 2321423432,
+          "date": 1636074504,
           "alias": "SGK_200_launch"
         },
         {
@@ -2157,45 +2157,45 @@
           "hashtag_list":[
       {"title": "Видео", "alias": "video"}
     ],
-          "video_id":"ghjhj",
+          "video_id": "sRE5iQCdRvE",
           "img":"",
           "alt":"",
           "title": "Игорь, Франчайзи",
           "subtitle": "Петрозаводск",
-          "date": 2321423432,
+          "date": 1636074504,
           "alias": "SGK_200_launch"
         }
       ]
     }
   },
   "news":{ 
-    "title":"Актуальные новости строительного бизнеса и технологий",
+    "title":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     "prev": "...",
     "next": "ggh",
     "list":[
       {
         "img":"http://lorempixel.com/599/337/",
         "alt":"сгб",
-        "name": "Почему строительные компании доверяют именно нам и выбирают сваебойные установки 'Стройматик'?!",
+        "name": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         "alias": "ghgfh",
-        "date": 232142343245
+        "date": 1636074504
       },
       {
         "img":"http://lorempixel.com/599/337/",
         "alt":"сгб",
-        "name": "Почему строительные компании доверяют именно нам и выбирают сваебойные установки 'Стройматик'?!",
+        "name": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         "alias": "jhkujh66",
-        "date": 23214234324
+        "date": 1636074504
       }
     ]
   },
   "our_partners":{
     "title":"Наши партнеры", 
-    "description":"<p>На оборудовании “Стройматик” успешно работают крупные строительные компании</p>", 
+    "description":"<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>", 
     "main_partner_img": "http://lorempixel.com/315/205/",
     "main_partner_alt": "леруа мерлен",
-    "main_partner_title": "Leroy Merlin — наш стратегический партнёр",
-    "main_partner_description": "Свайный ж/б фундамент по технологии 'Стройматик' можно заказать в любом из гипермаркетов сети",
+    "main_partner_title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "main_partner_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "list":[
       {
         "img":"http://lorempixel.com/160/90/",
@@ -2305,11 +2305,11 @@
   },
   "video_franchise_1":{
     "text": "<p>Cтаньте частью успешной строительной сети и зарабатывайте от 200 000₽ в месяц</p>",
-    "video_id": "xJ5iHFSdAU4"
+    "video_id": "sRE5iQCdRvE"
   },
   "video_franchise_2":{
     "text": "<p>ОТКРОЙТЕ СОБСТВЕННЫЙ БИЗНЕС ПО ВОЗВЕДЕНИЮ ФУНДАМЕНТОВ</p>",
-    "video_id": "dfdfd"
+    "video_id": "sRE5iQCdRvE"
   },
   "quiz":{ 
     "title": "Подобрать установку<br> для бизнеса",
@@ -2317,7 +2317,7 @@
     "script": "<div data-marquiz-id='616d36c7507718003f1b5d5b'></div><script>(function(t, p) {window.Marquiz ? Marquiz.add([t, p]) : document.addEventListener('marquizLoaded', function() {Marquiz.add([t, p])})})('Inline', {id: '616d36c7507718003f1b5d5b', buttonText: 'Пройти тест', bgColor: '#eb3b00', textColor: '#fff', rounded: true, shadow: 'rgba(235, 59, 0, 0.5)', blicked: true, buttonOnMobile: true})</script>  <script async>    (function(w, d, s, o){      var j = d.createElement(s); j.async = true; j.src = '//script.marquiz.ru/v2.js';j.onload = function() {        if (document.readyState !== 'loading') Marquiz.init(o);        else document.addEventListener('DOMContentLoaded', function() {          Marquiz.init(o);        });      };      d.head.insertBefore(j, d.head.firstElementChild);    })(window, document, 'script', {        host: '//quiz.marquiz.ru',        region: 'eu',        id: '616d36c7507718003f1b5d5b',        autoOpen: false,        autoOpenFreq: 'once',        openOnExit: false,        disableOnMobile: false      }    );    </script>"
   },
   "franchise_main":{
-    "title": "Франшиза стройматик",
+    "title": "Франшиза компания",
     "description": "<p>На оборудовании “Стройматик” успешно работают крупные строительные компании</p>",
     "list_title": "Став нашим партнером вы получаете",    
     "link_name_franchise": "начать бизнес по франшизе",
@@ -2380,7 +2380,7 @@
   },  
   "catalog_main_screen":{
     "title":"Каталог",
-    "description":"Работаем с фундаментами с 2015 года. Мы первыми разработали и запустили в производство модель компактной сваебойной установки, сами с успехом ею пользуемся", 
+    "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.", 
     "link_name": "Оставить заявку",
     "list":[
       {
@@ -2402,7 +2402,7 @@
   },
   "catalog_list":[
     {
-      "name": "СТРОЙМАТИК СГК-150",
+      "name": "Установка СГК-150",
       "alias": "111g",
       "code": "150",
       "short_description": "Прототип лёгкого самоходного копра в финальной Прототип лёгкого самоходного копра в финальной Прототип лёгкого самоходного копра в финальной Прототип лёгкого самоходного копра в финальной стадии разработки. Наименьшая цена и упрощённая комплектация – оптимальный вариант для входа в сваебойный бизнес",
@@ -2417,7 +2417,7 @@
       ]
     },
     {
-      "name": "СТРОЙМАТИК СГК-200",
+      "name": "Установка СГК-200",
       "alias": "gfhbg",
       "code": "200",      
       "short_description": "Прототип лёгкого самоходного копра в финальной стадии разработки. Наименьшая цена и ",
@@ -2432,7 +2432,7 @@
       ]
     },
     {
-      "name": "СТРОЙМАТИК СГК-300",
+      "name": "Установка СГК-300",
       "alias": "gfhbg",
       "code": "300",
       "short_description": "Прототип лёгкого самоходного копра в финальной стадии разработки. Наименьшая цена и упрощённая комплектация – оптимальный вариант для входа в сваебойный бизнес",
@@ -2447,7 +2447,7 @@
       ]
     },
     {
-      "name": "СТРОЙМАТИК СГК-400",
+      "name": "Установка СГК-400",
       "alias": "gfhbg",
       "code": "400",
       "short_description": "Прототип лёгкого самоходного копра в финальной стадии разработки. Наименьшая цена и упрощённая комплектация – оптимальный вариант для входа в сваебойный бизнес",
@@ -2464,7 +2464,7 @@
   ],
   "main_screen_main_page":{
     "title": "Мобильные сваебойные установки",
-    "description": "Самоходные гидравлические копры от создателей рынка забивных жб фундаментов для малоэтажного строительства",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     "btn_name": "Оставить заявку",
     "img":"http://lorempixel.com/996/555/",
     "alt":"сгб",
@@ -2482,8 +2482,8 @@
   },
   "common":{
     "logo_img": "http://lorempixel.com/176/46/",
-    "email": "sales@stroimatik.com",
-    "phone": "8 (800) 550-15-28",
+    "email": "test@test.com",
+    "phone": "8 (800) 999-99-99",
     "btn_name": "Заказать звонок",
     "soc_net":[
       {
@@ -2503,7 +2503,7 @@
         "link": "youtube.com"
       }
     ],
-    "copyright": "© 2021 - ООО 'СТРОЙМАТИК'<br>- <a href='privacy-policy'>политики конфиденциальности</a>",
+    "copyright": "© 2021 - ООО 'Компания'<br>- <a href='/privacy-policy'>политики конфиденциальности</a>",
     "form_subscribe":{
       "title": "Получайте информацию о новых моделях, модификациях и акциях на почту",
       "controls":{
@@ -2541,26 +2541,26 @@
     ],
     "top_menu":[
       {
-        "link": "catalog",
+        "link": "/catalog",
         "name": "Каталог",
         "submenu": [
           {
-            "link": "..",
+            "link": "/catalog/11",
             "name": "Стройматик СГК-150",
             "img": "http://lorempixel.com/127/82/"
           },
           {
-            "link": "..",
+            "link": "/catalog/22",
             "name": "Стройматик СГК-200",
             "img": "http://lorempixel.com/127/82/"
           },
           {
-            "link": "..",
+            "link": "/catalog/33",
             "name": "Стройматик СГК-300",
             "img": "http://lorempixel.com/127/82/"
           },
           {
-            "link": "..",
+            "link": "/catalog/44",
             "name": "Стройматик СГК-400",
             "img": "http://lorempixel.com/127/82/"
           }

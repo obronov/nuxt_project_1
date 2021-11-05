@@ -74,9 +74,9 @@ data(){
   },
   async fetch() {
     try {
-      this.notifications = await this.fetchLkAuth(process.env.baseUrl + 'lk_notifications ');
-      /* this.notifications = await fetch(process.env.fakeUrl + 'lk_notifications')
-      .then(res => res.json()) */
+      /* this.notifications = await this.fetchLkAuth(process.env.baseUrl + 'lk_notifications '); */
+      this.notifications = await fetch(process.env.fakeUrl + 'lk_notifications')
+      .then(res => res.json())
 
       this.getNumberNotifications(this.notifications.list);
       

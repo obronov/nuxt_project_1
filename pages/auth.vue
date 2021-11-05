@@ -105,18 +105,15 @@ export default {
   async fetch() {
 
     try {
-      /* this.formAuth.info = await fetch(process.env.fakeUrl + 'form_auth') */
-      this.formAuth.info = await fetch(process.env.baseUrl + `form_info/${this.formHandleAuth}`)
+      this.formAuth.info = await fetch(process.env.fakeUrl + 'form_auth')
       .then(res => res.json())
 
-      
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-      /* this.formRecovery.info = await fetch(process.env.fakeUrl + 'form_password_recovery') */
-      this.formRecovery.info = await fetch(process.env.baseUrl + `form_info/${this.formHandleRecovery}`)
+      this.formRecovery.info = await fetch(process.env.fakeUrl + 'form_password_recovery')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)

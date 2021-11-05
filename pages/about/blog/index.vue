@@ -47,17 +47,15 @@ export default {
     }
   },
   async fetch() {
-    let lang = this.$store.state.lang;
      try {
-      this.meta = await fetch(process.env.baseUrl + `meta_page?lang=${lang}`)
+      this.meta = await fetch(process.env.fakeUrl + `meta_page`)
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-      /* this.blog = await fetch(process.env.baseUrl + 'blog') */
-      this.blog = await fetch(process.env.baseUrl + `blog?lang=${lang}${this.getHashPage()}`)
+      this.blog = await fetch(process.env.fakeUrl + 'blog')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
@@ -66,7 +64,7 @@ export default {
   },
   watch:{
     $route: async function(){
-      this.blog = await fetch(process.env.baseUrl + `blog${this.getHashPage()}`)
+      this.blog = await fetch(process.env.fakeUrl + `blog`)
       .then(res => res.json())
     }
   },

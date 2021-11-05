@@ -113,10 +113,10 @@ export default {
   },
   async fetch() {
     try {
-      this.equipment = await this.fetchLkAuth(process.env.baseUrl + 'lk_catalog');
+      /* this.equipment = await this.fetchLkAuth(process.env.baseUrl + 'lk_catalog'); */
       
-      /* await fetch(process.env.fakeUrl + 'lk_equipment')
-      .then(res => res.json()) */
+      this.equipment = await fetch(process.env.fakeUrl + 'lk_equipment')
+      .then(res => res.json())
 
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)

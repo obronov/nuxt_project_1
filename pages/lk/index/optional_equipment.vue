@@ -45,10 +45,10 @@ export default {
   async fetch() {
 
     try {
-      this.equipment = await this.fetchLkAuth(process.env.baseUrl + 'lk_catalog_optional');
+      /* this.equipment = await this.fetchLkAuth(process.env.baseUrl + 'lk_catalog_optional'); */
       
-          /* this.equipment = await fetch(process.env.fakeUrl + 'lk_optional_equipment')
-      .then(res => res.json()) */
+      this.equipment = await fetch(process.env.fakeUrl + 'lk_optional_equipment')
+      .then(res => res.json())
 
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)

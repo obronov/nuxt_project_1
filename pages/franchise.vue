@@ -9,9 +9,6 @@
       <MapRegions v-if="!emptyFranchise" :map="franchise.map"/>
     </client-only>
     <Steps v-if="!emptyFranchise" :steps="franchise.step"/>
-    <div class="quiz-block" v-if="!emptyQuiz">
-      <Quiz  :quiz="quiz"/>
-    </div>
     <PartnerBenefits v-if="!emptyFranchise" :advantages="franchise.franchise_advantage"/>
     <hr class="block-delimeter">
     <div class="reviews" v-if="!emptyFranchise">
@@ -34,7 +31,6 @@ data(){
       formHandle: 'franchise',
       request: 'consult',
       franchise: {},
-      quiz: {},
       meta: {},
       form: {},
       fields:{
@@ -88,48 +84,33 @@ data(){
     }
   },
   async fetch() {
-    let lang = this.$store.state.lang;
 
     try {
-      /* this.form = await fetch(process.env.fakeUrl + 'form_franchise') */
-      this.form = await fetch(process.env.baseUrl + `form_info/${this.formHandle}?lang=${lang}`)
+      this.form = await fetch(process.env.fakeUrl + 'form_franchise')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-      this.meta = await fetch(process.env.baseUrl + `meta_page?lang=${lang}`)
+      this.meta = await fetch(process.env.fakeUrl + `meta_page`)
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-      /* this.franchise = await fetch(process.env.fakeUrl + 'franchise') */
-    this.franchise = await fetch(process.env.baseUrl + `franchise?lang=${lang}`)
-    .then(res => res.json())
-    } catch (error) {
-      console.error(`Страница ${this.$route.fullPath}: `,  error)
-    }
-
-    try {
-      /* this.quiz = await fetch(process.env.fakeUrl + 'quiz') */
-      this.quiz = await fetch(process.env.baseUrl + `quiz?lang=${lang}`)
+      this.franchise = await fetch(process.env.fakeUrl + 'franchise')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
+
+
   },
   computed:{
     emptyFranchise(){
       for (let key in this.franchise) {
-        return false;
-      }
-      return true;
-    },
-    emptyQuiz(){
-      for (let key in this.quiz) {
         return false;
       }
       return true;
@@ -157,37 +138,26 @@ data(){
   .main-screen{
     background: var(--color-4);
   }
-  .quiz-block{
-    font-size: 1rem;
-    padding:13.6em 0 17em;
-  }
   .reviews{
     font-size: 1rem;
     padding: 11.6em 0 6.3em;
   }
   @media screen and (max-width: 1100px) {
-    .reviews,
-    .quiz-block{
+    .reviews{
       font-size: .8rem;
     }
   }
   @media screen and (max-width: 992px) {
-    .reviews,
-    .quiz-block{
+    .reviews{
       font-size: .7rem;
     }
   }
   @media screen and (max-width: 768px) {
-    .reviews,
-    .quiz-block{
+    .reviews{
       font-size: 0.6rem;
     }
   }
   @media screen and (max-width: 600px) {
-    .quiz-block{
-      font-size: 0.5rem;
-      padding: 5.4em 0 6.4em;
-    }
     .reviews{
       font-size: 0.5rem;
       padding: 4em 0 12em;

@@ -42,7 +42,7 @@ import { adaptTable } from '@/theme/default/js/common'
 import Footer from '@/components/Footer'
 import FormOrder from '@/components/lk/FormOrder'
 export default {
-  middleware: ['setLang', 'setStoreAuthToken', 'fetchProfile'],
+  middleware: ['setLang', 'setStoreAuthToken'],
   mixins: [global],
   name: "default",
   components:{
@@ -123,24 +123,21 @@ export default {
   async fetch() {
     let lang = this.$store.state.lang;
     try {
-      /* this.formApp = await fetch(process.env.fakeUrl + 'form_application') */
-      this.formApp = await fetch(process.env.baseUrl + `form_info/${this.formHandleApp}?lang=${lang}`)
+      this.formApp = await fetch(process.env.fakeUrl + 'form_application')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-      /* this.formOrder = await fetch(process.env.fakeUrl + 'form_order') */
-      this.formOrder = await fetch(process.env.baseUrl + `form_info/${this.formHandleApp}?lang=${lang}`)
+      this.formOrder = await fetch(process.env.fakeUrl + 'form_application')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-      // this.formCall = await fetch(process.env.fakeUrl + 'form_call')
-      this.formCall = await fetch(process.env.baseUrl + `form_info/${this.formHandleApp}?lang=${lang}`)
+      this.formCall = await fetch(process.env.fakeUrl + 'form_call')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
@@ -149,8 +146,7 @@ export default {
     try {
       if(this.$store.state.common == ''){
         
-        /* this.common = await fetch(process.env.fakeUrl + 'common') */
-        this.common = await fetch(process.env.baseUrl + `common?lang=${lang}`)
+        this.common = await fetch(process.env.fakeUrl + 'common')
         .then(res => res.json());
         
         this.$store.commit('setCommon', this.common);

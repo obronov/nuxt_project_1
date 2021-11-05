@@ -109,7 +109,7 @@ export default{
         }
       }
 
-      let response = await fetch(process.env.baseUrl + `request/${params.request}?lang=${self.$store.state.lang}&form_handle=${params.form_handle}`, {
+/*       let response = await fetch(process.env.baseUrl + `request/${params.request}?lang=${self.$store.state.lang}&form_handle=${params.form_handle}`, {
         method: 'POST',
         body: data
       });
@@ -135,7 +135,7 @@ export default{
           resetError(self.form);
           printError(responseJson.message, self.form);
         }
-      }
+      } */
     }
   }
 }

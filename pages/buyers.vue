@@ -29,9 +29,6 @@
         </div>
       </div>
     </div>
-    <div class="quiz-block" v-if="!emptyQuiz">
-      <Quiz  :quiz="quiz"/>
-    </div>
     <div class="reviews" v-if="!emptyBuyers">
       <BlockVideo class="container" :video="buyers.video_comment"/> 
     </div>
@@ -53,7 +50,6 @@ export default {
       request: 'consult',
       count: 3,
       buyers: {},
-      quiz: {},
       selectedTab: undefined,
       form: {},
       fields:{
@@ -123,38 +119,28 @@ export default {
     }
   },
   async fetch() {
-    let lang = this.$store.state.lang;
 
     try {
-      /* this.form = await fetch(process.env.fakeUrl + 'form_buyers') */
-      this.form = await fetch(process.env.baseUrl + `form_info/${this.formHandle}?lang=${lang}`)
+      this.form = await fetch(process.env.fakeUrl + 'form_buyers')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-      this.meta = await fetch(process.env.baseUrl + `meta_page?lang=${lang}`)
+      this.meta = await fetch(process.env.fakeUrl + `meta_page`)
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-        /* this.buyers = await fetch(process.env.fakeUrl + 'buyers') */
-      this.buyers = await fetch(process.env.baseUrl + `buyers?lang=${lang}`)
+      this.buyers = await fetch(process.env.fakeUrl + 'buyers')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
-    try {
-      /* this.quiz = await fetch(process.env.fakeUrl + 'quiz') */
-      this.quiz = await fetch(process.env.baseUrl + `quiz?lang=${lang}`)
-      .then(res => res.json())
-    } catch (error) {
-      console.error(`Страница ${this.$route.fullPath}: `,  error)
-    }
   },
   methods:{
     showBtnMore(item){
@@ -218,12 +204,6 @@ export default {
       }
       return true;
     },
-    emptyQuiz(){
-      for (let key in this.quiz) {
-        return false;
-      }
-      return true;
-    },
     emptyForm(){
       for (let key in this.form) {
         return false;
@@ -247,10 +227,7 @@ export default {
       display: block;
     }
   }
-  .quiz-block{
-    font-size: 1rem;
-    padding: 17.5em 0 11.3em;
-  }
+
   .reviews{
     font-size: 1rem;
     padding: 11.3em 0 8.5em;
@@ -375,24 +352,21 @@ export default {
   @media screen and (max-width: 1100px) {
     .main-screen,
     .faq-list-wrap,
-    .reviews,
-    .quiz-block{
+    .reviews{
       font-size: .8rem;
     }
   }
   @media screen and (max-width: 992px) {
     .main-screen,
     .faq-list-wrap,
-    .reviews,
-    .quiz-block{
+    .reviews{
       font-size: .7rem;
     }
   }
   @media screen and (max-width: 768px) {
     .main-screen,
     .faq-list-wrap,
-    .reviews,
-    .quiz-block{
+    .reviews{
       font-size: 0.6rem;
     }
     .faq__btnFeedback{
@@ -417,10 +391,6 @@ export default {
     .main-screen,
     .faq-list-wrap{
       font-size: 0.5rem;
-    }
-    .quiz-block{
-      font-size: 0.5rem;
-      padding: 8.2em 0 6em;
     }
     .reviews{
       font-size: 0.5rem;

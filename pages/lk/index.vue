@@ -115,9 +115,9 @@ export default {
   },
   async fetch() {
     try {
-      this.lkInfo = await this.fetchLkAuth(process.env.baseUrl + 'lk_info ');
-      /* this.lkInfo = await fetch(process.env.fakeUrl + 'lk_info')
-      .then(res => res.json()) */
+      /* this.lkInfo = await this.fetchLkAuth(process.env.baseUrl + 'lk_info '); */
+      this.lkInfo = await fetch(process.env.fakeUrl + 'lk_info')
+      .then(res => res.json())
 
     } catch (error) {
       console.error(`lkInfo Страница ${this.$route.fullPath}: `,  error)
@@ -125,9 +125,9 @@ export default {
 
 
     try {
-      this.notifications = await this.fetchLkAuth(process.env.baseUrl + 'lk_notifications ');
-      /* this.notifications = await fetch(process.env.fakeUrl + 'lk_notifications')
-      .then(res => res.json()) */
+      /* this.notifications = await this.fetchLkAuth(process.env.baseUrl + 'lk_notifications '); */
+      this.notifications = await fetch(process.env.fakeUrl + 'lk_notifications')
+      .then(res => res.json())
 
       this.getNumberNotifications(this.notifications.list);
       

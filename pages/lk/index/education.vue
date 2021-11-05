@@ -87,10 +87,10 @@ export default {
   },
   async fetch() {
     try {
-      this.education = await this.fetchLkAuth(process.env.baseUrl + 'lk_education');
+      /* this.education = await this.fetchLkAuth(process.env.baseUrl + 'lk_education'); */
       
-      /* this.education = await fetch(process.env.fakeUrl + 'lk_education')
-      .then(res => res.json()) */
+      this.education = await fetch(process.env.fakeUrl + 'lk_education')
+      .then(res => res.json())
 
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)

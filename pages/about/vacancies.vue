@@ -77,25 +77,22 @@ export default {
     }
   },
  async fetch() {
-    let lang = this.$store.state.lang;
     try {
-      this.meta = await fetch(process.env.baseUrl + `meta_page?lang=${lang}`)
+      this.meta = await fetch(process.env.fakeUrl + `meta_page`)
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-      /* this.jobs = await fetch(process.env.fakeUrl + 'jobs') */
-      this.jobs = await fetch(process.env.baseUrl + `jobs?lang=${lang}`)
+      this.jobs = await fetch(process.env.fakeUrl + 'jobs')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-      /* this.form = await fetch(process.env.fakeUrl + 'form_job') */
-      this.form = await fetch(process.env.baseUrl + `form_info/${this.formHandle}?lang=${lang}`)
+      this.form = await fetch(process.env.fakeUrl + 'form_job')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)

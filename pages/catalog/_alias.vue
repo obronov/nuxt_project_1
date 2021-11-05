@@ -23,9 +23,6 @@
     <hr class="block-delimeter">
     <Leasing v-if="!emptyLeasing" :leasing="leasing"/>
     <hr class="block-delimeter">
-    <div class="quiz-block" v-if="!emptyQuiz && quiz.script">
-        <Quiz :quiz="quiz"/>
-    </div>
     <Faq :faq="catalogDetail.faq"/>
     <div class="reviews" v-if="catalogDetail.video_comment.list.length">
       <BlockVideo class="container" :video="catalogDetail.video_comment"/> 
@@ -50,7 +47,6 @@ data(){
       formHandle: 'catalog_detail',
       request: 'consult',
       catalogDetail: {},
-      quiz: {},
       leasing: {},
       faq: {},
       meta: {},
@@ -106,37 +102,23 @@ data(){
     return Boolean(params.alias)
   },
   async fetch() {
-    let lang = this.$store.state.lang;
 
     try {
-      /* this.form = await fetch(process.env.fakeUrl + 'form_catalog_detail') */
-      this.form = await fetch(process.env.baseUrl + `form_info/${this.formHandle}?lang=${lang}`)
+      this.form = await fetch(process.env.fakeUrl + 'form_catalog_detail')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-      /* this.catalogDetail = await fetch(process.env.fakeUrl + 'catalog_detail') */
-      this.catalogDetail = await fetch(process.env.baseUrl + `catalog/${this.$route.params.alias}?lang=${lang}`)
+      this.catalogDetail = await fetch(process.env.fakeUrl + 'catalog_detail')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
-
     try {
-      /* this.quiz = await fetch(process.env.fakeUrl + 'quiz') */
-      this.quiz = await fetch(process.env.baseUrl + `quiz?lang=${lang}`)
-      .then(res => res.json())
-    } catch (error) {
-      console.error(`Страница ${this.$route.fullPath}: `,  error)
-    }
-    
-
-    try {
-      /* this.leasing = await fetch(process.env.fakeUrl + 'leasing') */
-      this.leasing = await fetch(process.env.baseUrl + `leasing?lang=${lang}`)
+      this.leasing = await fetch(process.env.fakeUrl + 'leasing')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
@@ -144,8 +126,7 @@ data(){
 
 
     try {
-      /* this.meta = await fetch(process.env.fakeUrl + 'meta_page') */
-      this.meta = await fetch(process.env.baseUrl + `meta_page?lang=${lang}`)
+      this.meta = await fetch(process.env.fakeUrl + 'meta_page')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
@@ -154,12 +135,6 @@ data(){
   computed:{
     emptyCatalogDetail(){
       for (let key in this.catalogDetail) {
-        return false;
-      }
-      return true;
-    },
-    emptyQuiz(){
-      for (let key in this.quiz) {
         return false;
       }
       return true;
@@ -242,7 +217,6 @@ data(){
   }
   @media screen and (max-width: 992px) {
     .reviews,
-    .quiz-block,
     .video-certificates{
       font-size: .7rem;
     }
@@ -255,7 +229,6 @@ data(){
   }
   @media screen and (max-width: 768px) {
     .reviews,
-    .quiz-block,
     .video-certificates{
       font-size: 0.6rem;
     }
@@ -281,9 +254,6 @@ data(){
       font-size: 0.5rem;
       padding: 4em 0 12em;
     }
-    .quiz-block{
-      font-size: 0.5rem;
-      padding: 8.4em 0 14em;
-    }
+
   }
 </style>

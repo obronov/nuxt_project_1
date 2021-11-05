@@ -41,33 +41,29 @@ export default {
 
   },
   async fetch() {
-    let lang = this.$store.state.lang;
     try {
-      this.meta = await fetch(process.env.baseUrl + `meta_page?lang=${lang}`)
+      this.meta = await fetch(process.env.fakeUrl + `meta_page`)
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-        /* this.catalogAuth = await fetch(process.env.fakeUrl + 'catalog_auth') */
-      this.catalogAuth = await fetch(process.env.baseUrl + `catalog_auth?lang=${lang}`)
+       this.catalogAuth = await fetch(process.env.fakeUrl + 'catalog_auth')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {      
-      /* this.mainScreen = await fetch(process.env.fakeUrl + 'catalog_main_screen') */
-      this.mainScreen = await fetch(process.env.baseUrl + `catalog_main_screen?lang=${lang}`)
+      this.mainScreen = await fetch(process.env.fakeUrl + 'catalog_main_screen')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
     }
 
     try {
-      /* this.catalogList = await fetch(process.env.fakeUrl + 'catalog_list') */
-      this.catalogList = await fetch(process.env.baseUrl + `catalog?lang=${lang}`)
+      this.catalogList = await fetch(process.env.fakeUrl + 'catalog_list')
       .then(res => res.json())
     } catch (error) {
       console.error(`Страница ${this.$route.fullPath}: `,  error)
