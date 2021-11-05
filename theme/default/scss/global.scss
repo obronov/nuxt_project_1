@@ -1,0 +1,195 @@
+/* Стили для всего приложения */
+@import 'vars.scss';
+@import 'fonts.scss';
+@import 'base.scss';
+
+.wrapper{
+  overflow: hidden;
+}
+.dedicated{
+  color: var(--color-1);
+}
+.page-enter-active,
+.page-leave-active {
+  transition: opacity .5s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+.layout-enter-active,
+.layout-leave-active {
+  transition: opacity 0.5s;
+}
+.layout-enter,
+.layout-leave-active {
+  opacity: 0;
+}
+.clearfix{
+  clear: both;
+}
+.section__title{
+  font-weight: 600;
+  font-size: 6.4rem;
+  line-height: 121%;
+  margin: 0 0 .78em;
+  text-transform: uppercase;
+}
+.block-delimeter{
+  max-width: 1014px;
+  margin: 0 auto;
+  background: var(--color-5);
+  height: 1px;
+  border: none;
+}
+.btnCall{
+  background: var(--color-7);
+  border-radius: .4em;
+  border: none;
+  font-size: 2em;
+  line-height: 120%;
+  color: var(--color-4);
+  text-transform: uppercase;
+  padding: .9em 1.5em;
+  font-weight: bold;
+  border: none;
+  transition: .3s;
+  &:hover,
+  &:focus{
+    color: var(--color-7);
+    background: #E77C5A;
+  }
+  &:active{
+    color: var(--color-7);
+    background: #CC5050;
+  }
+}
+.swiper-wrapper{
+  margin: 0;
+  min-width: 0;
+	min-height: 0;
+}
+.swiper-slide{
+  padding: 0;
+  margin: 0;
+  &:before{
+    display: none;
+  }
+}
+.swiper-pagination-franchise .swiper-pagination-bullet{
+  opacity: 1;
+  border-radius: 2.3em;
+  width: .7em;
+  height: 3.1em;  
+  margin: 0 1.7em;
+  position: relative;
+  overflow: hidden;
+  background: none;
+  -webkit-mask-image: -webkit-radial-gradient(white, black); 
+  &:before,
+  &:after{
+    content: '';
+    width: 100%;
+    display: block;
+    background: var(--color-7);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  &:before{    
+    height: 100%;    
+    opacity: 0.5;
+  }
+  &:after{
+    height: 0%;
+    opacity: 0.7;
+    transition: .5s ease-in-out;
+  }
+  @media screen and (max-width: 768px) {
+    border-radius: 100%;
+    width: 2em;
+    height: 2em;
+    margin: 1em 0;
+  }
+}
+.swiper-pagination-franchise  .swiper-pagination-bullet-active{
+  &:after{
+    height: 100%;    
+    transition: var(--delay) ease-in-out;
+  }
+}
+
+.modal-video {
+  height: 50em;
+}
+
+.show-modal-enter-active,
+.show-modal-leave-active{
+  transition: .5s;
+}
+
+.show-modal-enter, 
+.show-modal-leave-to{
+  opacity: 0;
+  visibility: hidden;
+}
+.show-modal-enter-to, 
+.show-modal-leave{
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.show-modal-enter .modal-container,
+.show-modal-leave-to .modal-container{
+  opacity: 0;
+  visibility: hidden;
+  transform: translate3d(0, -20em, 0);
+}
+
+.show-modal-enter-to .modal-container, 
+.show-modal-leave .modal-container{
+  opacity: 1;
+  visibility: visible;
+  transform: translate3d(0, 0, 0);
+}
+
+.show-modal-enter-active .modal-container,
+.show-modal-leave-active .modal-container{
+  transition: .3s;
+}
+
+
+@media screen and (max-width: 1366px) {
+  .section__title{
+    font-size: 6.4rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .section__title{
+    font-size: 5.4rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .section__title{
+    font-size: 4.4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section__title{
+    font-size: 3.4rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .section__title{
+    font-size: 2.5rem;
+    margin: 0 0 1.4em;
+  }
+  .form-group{
+    margin: 0 0 8em;
+    &:nth-last-child(-n+2){
+      margin: 0 0 3.2em;
+    }
+  }
+}

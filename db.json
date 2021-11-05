@@ -1,0 +1,2602 @@
+{
+  "meta_page": {
+    "main":{
+      "title": "заголовок",
+      "meta_title": "заголовок страницы",
+      "meta_description": "Описание страницы",
+      "meta_keywords": "ключевые слова",
+      "og_title": "Заголовок opengraph",
+      "og_description": "Описание opengraph",
+      "og_image": "http://lorempixel.com/291/62/"
+    },
+    "catalog":{
+      "title": "заголовок",
+      "meta_title": "заголовок страницы",
+      "meta_description": "Описание страницы",
+      "meta_keywords": "ключевые слова",
+      "og_title": "Заголовок opengraph",
+      "og_description": "Описание opengraph",
+      "og_image": "http://lorempixel.com/291/62/"
+    },
+    "buyers":{
+      "title": "заголовок",
+      "meta_title": "заголовок страницы",
+      "meta_description": "Описание страницы",
+      "meta_keywords": "ключевые слова",
+      "og_title": "Заголовок opengraph",
+      "og_description": "Описание opengraph",
+      "og_image": "http://lorempixel.com/291/62/"
+    },
+    "franchise":{
+      "title": "заголовок",
+      "meta_title": "заголовок страницы",
+      "meta_description": "Описание страницы",
+      "meta_keywords": "ключевые слова",
+      "og_title": "Заголовок opengraph",
+      "og_description": "Описание opengraph",
+      "og_image": "http://lorempixel.com/291/62/"
+    },
+    "blog":{
+      "title": "заголовок",
+      "meta_title": "заголовок страницы",
+      "meta_description": "Описание страницы",
+      "meta_keywords": "ключевые слова",
+      "og_title": "Заголовок opengraph",
+      "og_description": "Описание opengraph",
+      "og_image": "http://lorempixel.com/291/62/"
+    },
+    "about":{
+      "title": "заголовок",
+      "meta_title": "заголовок страницы",
+      "meta_description": "Описание страницы",
+      "meta_keywords": "ключевые слова",
+      "og_title": "Заголовок opengraph",
+      "og_description": "Описание opengraph",
+      "og_image": "http://lorempixel.com/291/62/"
+    },
+    "news":{
+      "title": "заголовок",
+      "meta_title": "заголовок страницы",
+      "meta_description": "Описание страницы",
+      "meta_keywords": "ключевые слова",
+      "og_title": "Заголовок opengraph",
+      "og_description": "Описание opengraph",
+      "og_image": "http://lorempixel.com/291/62/"
+    },
+    "vacancies":{
+      "title": "заголовок",
+      "meta_title": "заголовок страницы",
+      "meta_description": "Описание страницы",
+      "meta_keywords": "ключевые слова",
+      "og_title": "Заголовок opengraph",
+      "og_description": "Описание opengraph",
+      "og_image": "http://lorempixel.com/291/62/"
+    },
+    "contacts":{
+      "title": "заголовок",
+      "meta_title": "заголовок страницы",
+      "meta_description": "Описание страницы",
+      "meta_keywords": "ключевые слова",
+      "og_title": "Заголовок opengraph",
+      "og_description": "Описание opengraph",
+      "og_image": "http://lorempixel.com/291/62/"
+    }
+  },
+  "lk_notifications":{
+    "title":"Уведомления",
+    "list":[
+      {
+        "id": 1,
+        "read": "n",
+        "date": 23214234324,
+        "title": "Запущен в производство Стройматик СГК-500",
+        "description": ""
+      },
+      {
+        "id": 2,
+        "read": "n",
+        "date": 23214234324,
+        "title": "Запущен в производство Стройматик СГК-500",
+        "description": "<ul><li>fgfgfg</li><li>fgfg</li><li>fgfg</li></ul><p>Запущен в производство Стройматик СГК-500. </p> <p>Запущен в производство Стройматик СГК-500. </p> "
+      },
+      {
+        "id": 3,
+        "read": "y",
+        "date": 23214234324,
+        "title": "Запущен в производство ",
+        "description": "<p>Запущен в производство Стройматик СГК-500. Профессиональная модель для выполнения больших объёмов работы.</p>"
+      },
+      {
+        "id": 4,
+        "read": "y",
+        "date": 23214234324,
+        "title": "Запущен в производство ",
+        "description": "<p>Запущен в производство Стройматик СГК-500. Профессиональная модель для выполнения больших объёмов работы.</p>"
+      },
+      {
+        "id": 5,
+        "read": "y",
+        "date": 23214234324,
+        "title": "Запущен в производство ",
+        "description": "<p>Запущен в производство Стройматик СГК-500. Профессиональная модель для выполнения больших объёмов работы.</p>"
+      }
+    ]
+  },
+  "lk_support":{
+    "title":"Техподдержка",
+    "support_services":[
+      {
+        "type": "chat",
+        "name": "Начать чат",
+        "script": "<script>(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://cdn-ru.bitrix24.ru/b3469911/crm/site_button/loader_3_s23l89.js');</script>"
+      },
+      {
+        "type": "request",
+        "name": "Создать заявку",
+        "script": "'<script>...</script>'"
+      }
+    ]
+  },
+  "lk_education":{
+    "title":"Сотрудники, прошедшие обучение",
+    "training_courses_link_name": "обучающие курсы",
+    "training_courses_link": "...ru",
+    "video_title": "Эти видео могут быть вам полезны",
+    "list_education":[
+      {
+        "name": "Иванов Иван Константинович",
+        "name_file": "Сертификат на право управления установкой СГК-200",
+        "link_file": "file.txt"
+      },
+      {
+        "name": "Петров Владимир Константинович",
+        "name_file": "Сертификат на право управления установкой СГК-200",
+        "link_file": "file.txt"
+      },
+      {
+        "name": "Сидоров Константин Константинович",
+        "name_file": "Сертификат на право управления установкой СГК-200",
+        "link_file": "file.txt"
+      }
+    ],
+    "video":[
+      {
+        "type": "video",
+        "hashtag_list":[
+          {"title": "#Отзывы", 
+            "alias": "otzyvy"}
+        ],
+        "video_id":"ELCODmToZiI",
+        "img":"",
+        "alt":"",
+        "title": "Игорь, Франчайзи",
+        "subtitle": "Петрозаводск",
+        "date": 23214234324,
+        "alias": "SGK_200_launch"
+      },
+      {
+        "type": "video",
+        "hashtag_list":[
+      {"title": "Видео", "alias": "video"}
+    ],
+        "video_id":"ghjhj",
+        "img":"",
+        "alt":"",
+        "title": "Игорь, Франчайзи",
+        "subtitle": "Петрозаводск",
+        "date": 23214234324,
+        "alias": "SGK_200_launch"
+      },
+      {
+        "type": "video",
+        "hashtag_list":[
+      {"title": "Видео", "alias": "video"}
+    ],
+        "video_id":"ghjhj",
+        "img":"",
+        "alt":"",
+        "title": "Игорь, Франчайзи",
+        "subtitle": "Петрозаводск",
+        "date": 23214234324,
+        "alias": "SGK_200_launch"
+      },
+      {
+        "type": "video",
+        "hashtag_list":[
+      {"title": "Видео", "alias": "video"}
+    ],
+        "video_id":"ghjhj",
+        "img":"",
+        "alt":"",
+        "title": "Игорь, Франчайзи",
+        "subtitle": "Петрозаводск",
+        "date": 23214234324,
+        "alias": "SGK_200_launch"
+      }
+    ]
+  },
+  "lk_optional_equipment":{
+    "title":"Дополнительное оборудование",
+    "btn_name": "Заказать",
+    "list":[
+      {
+        "id": 1,
+        "name": "Гидролебедка «Стройматик»",
+        "img": "http://lorempixel.com/207/129/",
+        "alt": "аватар",
+        "description": "<p>грузоподъемностью 950 кг, нижнее расположение, с тросом синтетическим, Ø10 мм., длиной 14 м.</p> <p>грузоподъемностью 950 кг, нижнее расположение, с тросом синтетическим, Ø10 мм., длиной 14 м.</p>"
+      },
+      {
+        "id": 2,
+        "name": "Гидролебедка «Стройматик» 2",
+        "img": "http://lorempixel.com/207/129/",
+        "alt": "аватар",
+        "description": "<p>Гидролебедка «Стройматик», грузоподъемностью 950 кг, нижнее расположение, с тросом синтетическим, Ø10 мм., длиной 14 м.</p>"
+      },
+      {
+        "id": 3,
+        "name": "Гидролебедка «Стройматик»",
+        "img": "http://lorempixel.com/207/129/",
+        "alt": "аватар",
+        "description": "<p>Гидролебедка «Стройматик», грузоподъемностью 950 кг, нижнее расположение, с тросом синтетическим, Ø10 мм., длиной 14 м.</p>"
+      },
+      {
+        "id": 4,
+        "name": "Гидролебедка «Стройматик»",
+        "img": "http://lorempixel.com/207/129/",
+        "alt": "аватар",
+        "description": "<p>грузоподъемностью 950 кг, нижнее расположение, с тросом синтетическим, Ø10 мм., длиной 14 м.</p> <p>грузоподъемностью 950 кг, нижнее расположение, с тросом синтетическим, Ø10 мм., длиной 14 м.</p>"
+      },
+      {
+        "id": 5,
+        "name": "Гидролебедка «Стройматик»",
+        "img": "http://lorempixel.com/207/129/",
+        "alt": "аватар",
+        "description": "<p>Гидролебедка «Стройматик», грузоподъемностью 950 кг, нижнее расположение, с тросом синтетическим, Ø10 мм., длиной 14 м.</p>"
+      },
+      {
+        "id": 6,
+        "name": "Гидролебедка «Стройматик»",
+        "img": "http://lorempixel.com/207/129/",
+        "alt": "аватар",
+        "description": "<p>Гидролебедка «Стройматик», грузоподъемностью 950 кг, нижнее расположение, с тросом синтетическим, Ø10 мм., длиной 14 м.</p>"
+      }
+    ]
+  },
+  "lk_equipment":{
+    "title":"Мое оборудование",    
+    "list":[
+      {
+        "id": 1,
+        "name": "СГК-200",
+        "code": 200,
+        "model": "Стройматик СГК-200",
+        "img": "http://lorempixel.com/191/106/",
+        "serial_number": "123-321-321-23-32",
+        "release_date": 1635513177,
+        "date_warranty": 1635513477,
+        "specification": "file.txt",
+        "show_tech_doc": false,
+        "technical_documentation":[
+          {
+            "name": "Паспорт самоходной машины (ПСМ)",
+            "link": "file.text"
+          },
+          {
+            "name": "Сертификат соответствия (копия)",
+            "link": "file.text"
+          },
+          {
+            "name": "Руководство пользователя установки",
+            "link": "file.text"
+          },
+          {
+            "name": "Таблица расчёта несущей способности сваи",
+            "link": "file.text"
+          },
+          {
+            "name": "График проведения технического обслуживания",
+            "link": "file.text"
+          },
+          {
+            "name": "Сервисная книжка установки",
+            "link": "file.text"
+          },
+          {
+            "name": "Техническая документация двигателя",
+            "link": "file.text"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "СГК-300",
+        "code": 300,
+        "model": "Стройматик СГК-300",
+        "img": "http://lorempixel.com/191/106/",
+        "serial_number": "123-321-321-23-345345",
+        "release_date": 1635513177,
+        "date_warranty": 1635513477,
+        "specification": "file2.txt",
+        "show_tech_doc": false,
+        "technical_documentation":[
+          {
+            "name": "Паспорт самоходной машины (ПСМ)",
+            "link": "file.text"
+          },
+          {
+            "name": "Сертификат соответствия (копия)",
+            "link": "file.text"
+          },
+          {
+            "name": "Руководство пользователя установки",
+            "link": "file.text"
+          }          
+        ]
+      },
+      {
+        "id": 3,
+        "name": "СГК-300",
+        "code": 300,
+        "model": "Стройматик СГК-300",
+        "img": "http://lorempixel.com/191/106/",
+        "serial_number": "123-321-321-23-345345",
+        "release_date": 1635513177,
+        "date_warranty": 1635513477,
+        "specification": "file2.txt",
+        "show_tech_doc": false,
+        "technical_documentation":[
+          {
+            "name": "Паспорт самоходной машины (ПСМ)",
+            "link": "file.text"
+          },
+          {
+            "name": "Сертификат соответствия (копия)",
+            "link": "file.text"
+          },
+          {
+            "name": "Руководство пользователя установки",
+            "link": "file.text"
+          }          
+        ]
+      },
+      {
+        "id": 4,
+        "name": "СГК-300",
+        "code": 300,
+        "model": "Стройматик СГК-300",
+        "img": "http://lorempixel.com/191/106/",
+        "serial_number": "123-321-321-23-345345",
+        "release_date": 1635513177,
+        "date_warranty": 1635513477,
+        "specification": "file2.txt",
+        "show_tech_doc": false,
+        "technical_documentation":[
+          {
+            "name": "Паспорт самоходной машины (ПСМ)",
+            "link": "file.text"
+          },
+          {
+            "name": "Сертификат соответствия (копия)",
+            "link": "file.text"
+          },
+          {
+            "name": "Руководство пользователя установки",
+            "link": "file.text"
+          }          
+        ]
+      },
+      {
+        "id": 5,
+        "name": "СГК-300",
+        "code": 300,
+        "model": "Стройматик СГК-300",
+        "img": "http://lorempixel.com/191/106/",
+        "serial_number": "123-321-321-23-345345",
+        "release_date": 1635513177,
+        "date_warranty": 1635513477,
+        "specification": "file2.txt",
+        "show_tech_doc": false,
+        "technical_documentation":[
+          {
+            "name": "Паспорт самоходной машины (ПСМ)",
+            "link": "file.text"
+          },
+          {
+            "name": "Сертификат соответствия (копия)",
+            "link": "file.text"
+          },
+          {
+            "name": "Руководство пользователя установки",
+            "link": "file.text"
+          }          
+        ]
+      },
+      {
+        "id": 6,
+        "name": "СГК-300",
+        "code": 300,
+        "model": "Стройматик СГК-300",
+        "img": "http://lorempixel.com/191/106/",
+        "serial_number": "123-321-321-23-345345",
+        "release_date": 1635513177,
+        "date_warranty": 1635513477,
+        "specification": "file2.txt",
+        "show_tech_doc": false,
+        "technical_documentation":[
+          {
+            "name": "Паспорт самоходной машины (ПСМ)",
+            "link": "file.text"
+          },
+          {
+            "name": "Сертификат соответствия (копия)",
+            "link": "file.text"
+          },
+          {
+            "name": "Руководство пользователя установки",
+            "link": "file.text"
+          }          
+        ]
+      },
+      {
+        "id": 7,
+        "name": "СГК-300",
+        "code": 300,
+        "model": "Стройматик СГК-300",
+        "img": "http://lorempixel.com/191/106/",
+        "serial_number": "123-321-321-23-345345",
+        "release_date": 1635513177,
+        "date_warranty": 1635513477,
+        "specification": "file2.txt",
+        "show_tech_doc": false,
+        "technical_documentation":[
+          {
+            "name": "Паспорт самоходной машины (ПСМ)",
+            "link": "file.text"
+          },
+          {
+            "name": "Сертификат соответствия (копия)",
+            "link": "file.text"
+          },
+          {
+            "name": "Руководство пользователя установки",
+            "link": "file.text"
+          }          
+        ]
+      },
+      {
+        "id": 8,
+        "name": "СГК-300",
+        "code": 300,
+        "model": "Стройматик СГК-300",
+        "img": "http://lorempixel.com/191/106/",
+        "serial_number": "123-321-321-23-345345",
+        "release_date": 1635513177,
+        "date_warranty": 1635513477,
+        "specification": "file2.txt",
+        "show_tech_doc": false,
+        "technical_documentation":[
+          {
+            "name": "Паспорт самоходной машины (ПСМ)",
+            "link": "file.text"
+          },
+          {
+            "name": "Сертификат соответствия (копия)",
+            "link": "file.text"
+          },
+          {
+            "name": "Руководство пользователя установки",
+            "link": "file.text"
+          }          
+        ]
+      },
+      {
+        "id": 9,
+        "name": "СГК-300",
+        "code": 300,
+        "model": "Стройматик СГК-300",
+        "img": "http://lorempixel.com/191/106/",
+        "serial_number": "123-321-321-23-345345",
+        "release_date": 1635513177,
+        "date_warranty": 1635513477,
+        "specification": "file2.txt",
+        "show_tech_doc": false,
+        "technical_documentation":[
+          {
+            "name": "Паспорт самоходной машины (ПСМ)",
+            "link": "file.text"
+          },
+          {
+            "name": "Сертификат соответствия (копия)",
+            "link": "file.text"
+          },
+          {
+            "name": "Руководство пользователя установки",
+            "link": "file.text"
+          }          
+        ]
+      },
+      {
+        "id": 10,
+        "name": "СГК-300",
+        "code": 300,
+        "model": "Стройматик СГК-300",
+        "img": "http://lorempixel.com/191/106/",
+        "serial_number": "123-321-321-23-345345",
+        "release_date": 1635513177,
+        "date_warranty": 1635513477,
+        "specification": "file2.txt",
+        "show_tech_doc": false,
+        "technical_documentation":[
+          {
+            "name": "Паспорт самоходной машины (ПСМ)",
+            "link": "file.text"
+          },
+          {
+            "name": "Сертификат соответствия (копия)",
+            "link": "file.text"
+          },
+          {
+            "name": "Руководство пользователя установки",
+            "link": "file.text"
+          }          
+        ]
+      },
+      {
+        "id": 11,
+        "name": "СГК-300",
+        "code": 300,
+        "model": "Стройматик СГК-300",
+        "img": "http://lorempixel.com/191/106/",
+        "serial_number": "123-321-321-23-345345",
+        "release_date": 1635513177,
+        "date_warranty": 1635513477,
+        "specification": "file2.txt",
+        "show_tech_doc": false,
+        "technical_documentation":[
+          {
+            "name": "Паспорт самоходной машины (ПСМ)",
+            "link": "file.text"
+          },
+          {
+            "name": "Сертификат соответствия (копия)",
+            "link": "file.text"
+          },
+          {
+            "name": "Руководство пользователя установки",
+            "link": "file.text"
+          }          
+        ]
+      },
+      {
+        "id": 12,
+        "name": "СГК-300",
+        "code": 300,
+        "model": "Стройматик СГК-300",
+        "img": "http://lorempixel.com/191/106/",
+        "serial_number": "123-321-321-23-345345",
+        "release_date": 1635513177,
+        "date_warranty": 1635513477,
+        "specification": "file2.txt",
+        "show_tech_doc": false,
+        "technical_documentation":[
+          {
+            "name": "Паспорт самоходной машины (ПСМ)",
+            "link": "file.text"
+          },
+          {
+            "name": "Сертификат соответствия (копия)",
+            "link": "file.text"
+          },
+          {
+            "name": "Руководство пользователя установки",
+            "link": "file.text"
+          }          
+        ]
+      },
+      {
+        "id":13,
+        "name": "СГК-300",
+        "code": 300,
+        "model": "Стройматик СГК-300",
+        "img": "http://lorempixel.com/191/106/",
+        "serial_number": "123-321-321-23-345345",
+        "release_date": 1635513177,
+        "date_warranty": 1635513477,
+        "specification": "file2.txt",
+        "show_tech_doc": false,
+        "technical_documentation":[
+          {
+            "name": "Паспорт самоходной машины (ПСМ)",
+            "link": "file.text"
+          },
+          {
+            "name": "Сертификат соответствия (копия)",
+            "link": "file.text"
+          },
+          {
+            "name": "Руководство пользователя установки",
+            "link": "file.text"
+          }          
+        ]
+      },
+      {
+        "id": 14,
+        "name": "СГК-300",
+        "code": 300,
+        "model": "Стройматик СГК-300",
+        "img": "http://lorempixel.com/191/106/",
+        "serial_number": "123-321-321-23-345345",
+        "release_date": 1635513177,
+        "date_warranty": 1635513477,
+        "specification": "file2.txt",
+        "show_tech_doc": false,
+        "technical_documentation":[
+          {
+            "name": "Паспорт самоходной машины (ПСМ)",
+            "link": "file.text"
+          },
+          {
+            "name": "Сертификат соответствия (копия)",
+            "link": "file.text"
+          },
+          {
+            "name": "Руководство пользователя установки",
+            "link": "file.text"
+          }          
+        ]
+      },
+      {
+        "id": 15,
+        "name": "СГК-300",
+        "code": 300,
+        "model": "Стройматик СГК-300",
+        "img": "http://lorempixel.com/191/106/",
+        "serial_number": "123-321-321-23-345345",
+        "release_date": 1635513177,
+        "date_warranty": 1635513477,
+        "specification": "file2.txt",
+        "show_tech_doc": false,
+        "technical_documentation":[
+          {
+            "name": "Паспорт самоходной машины (ПСМ)",
+            "link": "file.text"
+          },
+          {
+            "name": "Сертификат соответствия (копия)",
+            "link": "file.text"
+          },
+          {
+            "name": "Руководство пользователя установки",
+            "link": "file.text"
+          }          
+        ]
+      }
+    ]
+  },
+  "lk_profile":{
+    "title":"Добро пожаловать в личный кабинет",
+    "list":[{
+      "name_organization": "ООО “Феникс”",
+      "legal_address": "г. Москва, ул. Полярная 123",
+      "actual_address": "г. Красноярск, ул. Партизна Железняка",
+      "contact_person": "Иванов Иван Константинович",
+      "phone": "+7 965 965 99 65",
+      "email": "ooofeniks@mail.ruEmail"
+    }]
+  },
+  "lk_info":{
+    "img_user": "http://lorempixel.com/115/115/",
+    "alt_img_user": "аватар",
+    "name": "ООО “Феникс”"
+  },
+  "blog_detail":{
+    "title": "Фундамент под дом из бруса. 2 этажа",
+    "date": 23214234324,
+    "type": "text",
+    "video_id":"twdgCRea50U",
+    "img":"http://lorempixel.com/1011/600/",
+    "alt":"сгб",
+    "text": "<p>Мы первыми в мире разработали и создали мини-копер, предназначенный для забивки ж/б свай в частном строительстве.</p>"
+  },
+  "blog":{
+    "title":"Блог",
+    "description":"<p>Самое актуальное и полезное смотрите в нашем блоге</p>", 
+    "prev": "...",
+    "next": "2",
+    "tag_all_title": "Все",
+    "hashtag_list":[
+      {"title": "Отзывы", "alias": "otzyvy"},
+      {"title": "Выполненные проекты", "alias": "vypolnennye-proekty"},
+      {"title": "Видео", "alias": "video"},
+      {"title": "Управление сваебойкой", "alias": "upravlenie-svaebojkoj"},
+      {"title": "Техническое обслуживание", "alias": "tekhnicheskoe-obsluzhivanie"}
+    ],
+    "list":[
+      {
+        "type": "video",
+        "hashtag_list":[
+          {
+          "title": "#Выполненные проекты", 
+          "alias": "completed_projects"
+          },
+          {
+          "title": "#конфиденциальность", 
+          "alias": "completed_projects"
+          }
+        ],
+        "video_id":"LZOhBQE3mtc",
+        "img":"",
+        "alt":"",
+        "title": "Игорь, Франчайзи",
+        "subtitle": "Петрозаводск",
+        "date": 23214234324,
+        "alias": "SGK_200_launch"
+      },
+      {
+        "type": "video",
+        "hashtag_list":[
+          {
+          "title": "#Выполненные проекты", 
+          "alias": "completed_projects"
+          }
+        ],
+        "video_id":"LZOhBQE3mtc",
+        "img":"",
+        "alt":"",
+        "title": "Игорь, Франчайзи",
+        "subtitle": "Петрозаводск",
+        "date": 23214234324,
+        "alias": "SGK_200_launch"
+      },
+      {
+        "type": "video",
+        "hashtag_list":[
+          {
+          "title": "#Выполненные проекты", 
+          "alias": "completed_projects"
+          }
+        ],
+        "video_id":"LZOhBQE3mtc",
+        "img":"",
+        "alt":"",
+        "title": "Игорь, Франчайзи",
+        "subtitle": "Петрозаводск",
+        "date": 23214234324,
+        "alias": "SGK_200_launch"
+      },
+      {
+        "type": "video",
+        "hashtag_list":[
+          {
+          "title": "#Выполненные проекты", 
+          "alias": "completed_projects"
+          }
+        ],
+        "video_id":"LZOhBQE3mtc",
+        "img":"",
+        "alt":"",
+        "title": "Игорь, Франчайзи",
+        "subtitle": "Петрозаводск",
+        "date": 23214234324,
+        "alias": "SGK_200_launch"
+      },
+      {
+        "type": "video",
+        "hashtag_list":[
+          {
+          "title": "#Выполненные проекты", 
+          "alias": "completed_projects"
+          }
+        ],
+        "video_id":"LZOhBQE3mtc",
+        "img":"",
+        "alt":"",
+        "title": "Игорь, Франчайзи",
+        "subtitle": "Петрозаводск",
+        "date": 23214234324,
+        "alias": "SGK_200_launch"
+      },
+      {
+        "type": "video",
+        "hashtag_list":[
+          {
+          "title": "#Выполненные проекты", 
+          "alias": "completed_projects"
+          }
+        ],
+        "video_id":"LZOhBQE3mtc",
+        "img":"",
+        "alt":"",
+        "title": "Игорь, Франчайзи",
+        "subtitle": "Петрозаводск",
+        "date": 23214234324,
+        "alias": "SGK_200_launch"
+      },
+      {
+        "type": "video",
+        "hashtag_list":[
+          {
+          "title": "#Выполненные проекты", 
+          "alias": "completed_projects"
+          }
+        ],
+        "video_id":"LZOhBQE3mtc",
+        "img":"",
+        "alt":"",
+        "title": "Игорь, Франчайзи",
+        "subtitle": "Петрозаводск",
+        "date": 23214234324,
+        "alias": "SGK_200_launch"
+      },
+      {
+        "type": "video",
+        "hashtag_list":[
+          {
+          "title": "#Выполненные проекты", 
+          "alias": "completed_projects"
+          }
+        ],
+        "video_id":"LZOhBQE3mtc",
+        "img":"",
+        "alt":"",
+        "title": "Игорь, Франчайзи",
+        "subtitle": "Петрозаводск",
+        "date": 23214234324,
+        "alias": "SGK_200_launch"
+      },
+      {
+        "type": "video",
+        "hashtag_list":[
+          {
+            "title": "#Видео", 
+            "alias": "video"
+          },
+          {
+          "title": "#Выполненные проекты", 
+          "alias": "completed_projects"
+          }
+        ],
+        "video_id":"LZOhBQE3mtc",
+        "img":"",
+        "alt":"",
+        "title": "Игорь, Франчайзи",
+        "subtitle": "Петрозаводск",
+        "date": 23214234324,
+        "alias": "SGK_200_launch"
+      },
+      {
+        "type": "video",
+        "hashtag_list":[
+          {
+            "title": "#Видео", 
+            "alias": "video"
+          },
+          {
+          "title": "#Выполненные проекты", 
+          "alias": "completed_projects"
+          }
+        ],
+        "video_id":"LZOhBQE3mtc",
+        "img":"",
+        "alt":"",
+        "title": "Игорь, Франчайзи",
+        "subtitle": "Петрозаводск",
+        "date": 23214234324,
+        "alias": "SGK_200_launch"
+      },
+      {
+        "type": "video",
+        "hashtag_list":[
+          {
+            "title": "#Видео", 
+            "alias": "video"
+          },
+          {
+          "title": "#Выполненные проекты", 
+          "alias": "completed_projects"
+          }
+        ],
+        "video_id":"LZOhBQE3mtc",
+        "img":"",
+        "alt":"",
+        "title": "Игорь, Франчайзи",
+        "subtitle": "Петрозаводск",
+        "date": 23214234324,
+        "alias": "SGK_200_launch"
+      },
+      {
+        "type": "text",
+        "hashtag_list":[
+          {
+            "title": "#Выполненные проекты", 
+            "alias": "completed_projects"
+          }
+        ],
+        "video_id":"",
+        "img":"http://lorempixel.com/480/360/",
+        "alt":"сгб",
+        "title": "Фундамент под дом из бруса. 2 этажа",
+        "subtitle": "",
+        "date": 23214234324,
+        "alias": "fdghfdg"
+      },
+      {
+        "type": "text",
+        "hashtag_list":[
+          {
+            "title": "Выполненные проекты", 
+            "alias": "completed_projects"
+          }
+        ],
+        "video_id":"",
+        "img":"http://lorempixel.com/480/360/",
+        "alt":"сгб",
+        "title": "Фундамент под дом из бруса. 2 этажа",
+        "subtitle": "",
+        "date": 23214234324,
+        "alias": "fdghfdg"
+      },
+      {
+        "type": "text",
+        "hashtag_list":[
+          {
+            "title": "#Конфиденциальность", 
+            "alias": "completed_projects"
+          }
+        ],
+        "video_id":"",
+        "img":"",
+        "alt":"",
+        "title": "Фундамент под дом из бруса. 2 этажа",
+        "subtitle": "",
+        "date": 23214234324,
+        "alias": "fdghfdg"
+      }
+    ]
+  },
+  "404":{
+    "title":"4044",
+    "description":"<p>Здравствуйте!</p><p>К сожалению, введенный Вами адрес сейчас недоступен.</p>",
+    "link_name": "вернуться на главную",
+    "link": "about"
+  },
+  "contacts":{
+    "title":"Контакты",
+    "description":"<p>Обратитесь к специалисту нужного вам отдела.</p> <p>По всем остальным вопросам пишите на sales@stroimatic.com</p>", 
+    "list":[
+      {
+        "name": "отдел маркетинга",
+        "phone_list":[
+          "8 (800) 550-15-28",
+          "8 (800) 550-15-28"
+        ],
+        "email_list": [
+          "sales@stroimatik.com",
+          "sales@stroimatik.com"
+        ] 
+      },
+      {
+        "name": "отдел сбыта",
+        "phone_list":[
+          "8 (800) 550-15-28",
+          "8 (800) 550-15-28"
+        ],
+        "email_list": [
+          "sales@stroimatik.com",
+          "sales@stroimatik.com"
+        ] 
+      },
+      {
+        "name": "Приемная",
+        "phone_list":[
+          "8 (800) 550-15-28",
+          "8 (800) 550-15-28"
+        ],
+        "email_list": [
+          "sales@stroimatik.com",
+          "sales@stroimatik.com"
+        ] 
+      },
+      {
+        "name": "Отдел кадров",
+        "phone_list":[
+          "8 (800) 550-15-28",
+          "8 (800) 550-15-28"
+        ],
+        "email_list": [
+          "sales@stroimatik.com",
+          "sales@stroimatik.com"
+        ] 
+      },
+      {
+        "name": "Производственный отдел",
+        "phone_list":[
+          "8 (800) 550-15-28",
+          "8 (800) 550-15-28"
+        ],
+        "email_list": [
+          "sales@stroimatik.com",
+          "sales@stroimatik.com"
+        ] 
+      },
+      {
+        "name": "отдел сбыта",
+        "phone_list":[
+          "8 (800) 550-15-28",
+          "8 (800) 550-15-28"
+        ],
+        "email_list": [
+          "sales@stroimatik.com",
+          "sales@stroimatik.com"
+        ] 
+      }
+    ]
+  },
+  "buyers":{ 
+    "title":"Покупателям",
+    "description":"<p>Выберите из какой области вопрос вас интересует</p>", 
+    "img":"http://lorempixel.com/1443/634/",
+    "btn_name": "Оставить заявку",
+    "btn_pagination": "Показать ещё",
+    "faq":[
+      {
+        "name": "Доставка и оплата",
+        "code": "dostavka",
+        "show_pagination": true,
+        "list":[
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "1 Доставка и оплата Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "2 Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "3 Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "4 Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "5 Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "6 Доставка Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          }
+        ]
+      },
+      {
+        "name": "Рассрочка",
+        "code": "rassrochka",
+        "show_pagination": true,
+        "list":[
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "1 Рассрочка Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "2 Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "3 Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "4 Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "5 Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "6 Рассрочка Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          }
+        ]
+      },
+      {
+        "name": "Лизинг",
+        "code": "lising",
+        "show_pagination": true,
+        "list":[
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "1 Лизинг Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "2 Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "3 Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "4 Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "5 Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "6 Лизинг Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          }
+        ]
+      },
+      {
+        "name": "Владельцам сваебойки",
+        "code": "owner",
+        "show_pagination": true,
+        "list":[
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "1 Владельцам сваебойки Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "2 Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "3 Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "4 Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "5 Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "6 Владельцам сваебойки Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          }
+        ]
+      },
+      {
+        "name": "Что-то ещё",
+        "code": "anything",
+        "show_pagination": true,
+        "list":[
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "1 Что-то ещё Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "2 Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "3 Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "4 Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "5 Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          },
+          {
+            "show_question": false,
+            "show_answer": false,
+            "question": "6 Что-то ещё Какие сваи выбрать – винтовые или забивные?",
+            "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"        
+          }
+        ]
+      }
+    ],
+    "video_comment":{
+      "title": "Эти видео могут вас<br> заинтересовать",
+      "link_name": "смотреть еще",
+      "list":[
+        {
+          "type": "video",
+          "hashtag_list":[
+            {
+              "title": "#Отзывы", 
+              "alias": "otzyvy "
+            },
+            {
+              "title": "#Видео", 
+              "alias": "video "
+            }
+          ],
+          "video_id":"twdgCRea50U",
+          "img":"",
+          "alt":"",
+          "title": "Игорь, Франчайзи",
+          "subtitle": "Петрозаводск",
+          "date": 23214234324,
+          "alias": "dfg"
+        },
+        {
+          "type": "video",
+          "hashtag_list":[
+            {"title": "Отзывы", "alias": "reviews "}
+          ],
+          "video_id":"twdgCRea50U",
+          "img":"",
+          "alt":"",
+          "title": "Игорь, Франчайзи",
+          "subtitle": "Петрозаводск",
+          "date": 23214234324,
+          "alias": "dfg"
+        },
+        {
+          "type": "video",
+          "hashtag_list":[
+            {
+              "title": "Отзывы", 
+              "alias": "reviews "
+            }
+          ],
+          "video_id":"twdgCRea50U",
+          "img":"",
+          "alt":"",
+          "title": "Игорь, Франчайзи",
+          "subtitle": "Петрозаводск",
+          "date": 23214234324,
+          "alias": "fdgdg"
+        }
+      ]
+    }
+  }, 
+  "jobs":{
+    "main_screen":{
+      "title":"Работа<br> в стройматик",
+      "description":"В настоящее время в компании Стройматик работают более 6344 человек", 
+      "link_name": "Оставить заявку",
+      "img":"http://lorempixel.com/917/686/",
+      "alt":"сгб"
+    },
+    "title": "Актуальные<br> вакансии",
+    "account_hh": "https://krasnoyarsk.hh.ru/",
+    "list":[
+      {
+        "name": "",
+        "salary":"", 
+        "link_hh": ""
+      },
+      {
+        "name": "Водитель на сваебойную конфиденциальности",
+        "salary":"50 000", 
+        "link_hh": "https://krasnoyarsk.hh.ru/"
+      },
+      {
+        "name": "Водитель на сваебойную установку",
+        "salary":"5000", 
+        "link_hh": "dfdgfdg"
+      },
+      {
+        "name": "Водитель на сваебойную установку",
+        "salary":"50000", 
+        "link_hh": "dfdgfdg"
+      },
+      {
+        "name": "Водитель на сваебойную установку",
+        "salary":"50000", 
+        "link_hh": "dfdgfdg"
+      },
+      {
+        "name": "Водитель на сваебойную установку",
+        "salary":"50000", 
+        "link_hh": "dfdgfdg"
+      },
+      {
+        "name": "Водитель на сваебойную установку",
+        "salary":"50000", 
+        "link_hh": "dfdgfdg"
+      },
+      {
+        "name": "Водитель на сваебойную установку",
+        "salary":"50000", 
+        "link_hh": "dfdgfdg"
+      }
+    ]
+  },
+  "about":{
+    "main_screen":{
+      "title":"О компании",
+      "description":"В настоящее время представительства компании Стройматик работают более чем в 30 регионах России", 
+      "btn_name": "Оставить заявку",
+      "video_file":[
+        "http://new.lemarkllc.ru/local/html/video/video_mp4.mp4",
+        "http://new.lemarkllc.ru/local/html/video/video_webm.webm"
+      ]
+    },
+    "history":{
+      "title":"История<br> компании",
+      "list":[
+        {
+          "year": "2015",
+          "text": "<p> 2015 разработана сваебойная установка СГК-150, сверхкомпактная и сверхлегкая (до 2 тонн) сваебойка на гусеничном ходу для погружения свай сечением 150х150 мм и длиной до 4 м. Начало работы в США по предоставлению услуг возведения свайных фундаментов.</p>",
+          "img":"http://lorempixel.com/395/212/",
+          "alt":"сгб",
+          "active": false
+        },
+        {
+          "year": "2016",
+          "text": "<p> 2016 разработана сваебойная установка СГК-150, услуг возведения свайных фундаментов.</p>",
+          "img":"http://lorempixel.com/395/212/",
+          "alt":"сгб",
+          "active": false
+        },
+        {
+          "year": "2017",
+          "text": "<p> 2017 разработана сваебойная установка СГК-150, сверхкомпактная и сверхлегкая (до 2 тонн) сваебойка на гусеничном ходу для погружения свай сечением 150х150 мм и длиной до 4 м. Начало работы в США по предоставлению услуг возведения свайных фундаментов.</p>",
+          "img":"http://lorempixel.com/395/212/",
+          "alt":"сгб",
+          "active": false
+        },
+        {
+          "year": "2018",
+          "text": "<p> 2018разработана сваебойная установка СГК-150, сверхкомпактная и сверхлегкая (до 2 тонн) сваебойка на гусеничном ходу для погружения свай сечением 150х150 мм и длиной до 4 м. Начало работы в США по предоставлению услуг возведения свайных фундаментов.</p>",
+          "img":"http://lorempixel.com/395/212/",
+          "alt":"сгб",
+          "active": false
+        },
+        {
+          "year": "2019",
+          "text": "<p> 2019 разработана сваебойная установка СГК-150, сверхкомпактная и сверхлегкая (до 2 тонн) сваебойка на гусеничном ходу для погружения свай сечением 150х150 мм и длиной до 4 м. Начало работы в США по предоставлению услуг возведения свайных фундаментов.</p>",
+          "img":"http://lorempixel.com/395/212/",
+          "alt":"сгб",
+          "active": false
+        },
+        {
+          "year": "2020",
+          "text": "<p>разработана сваебойная установка СГК-150, сверхкомпактная и сверхлегкая (до 2 тонн) сваебойка на гусеничном ходу для погружения свай сечением 150х150 мм и длиной до 4 м. Начало работы в США по предоставлению услуг возведения свайных фундаментов.</p>",
+          "img":"http://lorempixel.com/395/212/",
+          "alt":"сгб",
+          "active": false
+        },
+        {
+          "year": "2021",
+          "text": "<p> 2021разработана сваебойная установка СГК-150, сверхкомпактная и сверхлегкая (до 2 тонн) сваебойка на гусеничном ходу для погружения свай сечением 150х150 мм и длиной до 4 м. Начало работы в США по предоставлению услуг возведения свайных фундаментов.</p><p>разработана сваебойная установка СГК-150, сверхкомпактная и сверхлегкая (до 2 тонн) сваебойка на гусеничном ходу для погружения свай сечением 150х150 мм и длиной до 4 м. Начало работы в США по предоставлению услуг возведения свайных фундаментов.</p>",
+          "img":"http://lorempixel.com/395/212/",
+          "alt":"сгб",
+          "active": false
+        }
+      ]
+    },
+    "team":{
+      "title":"Команда",
+      "list":[
+        {
+          "name": "Максим Егренков",
+          "position": "Генеральный конфиденциальности",
+          "img":"https://thumb.tildacdn.com/tild3730-3930-4661-b933-343236663735/-/cover/300x300/center/center/-/format/webp/photo.jpg",
+          "alt":"сгб"
+        },
+        {
+          "name": "Надежда Сущева",
+          "position": "Начальник отдела продаж",
+          "img":"http://lorempixel.com/206/206/",
+          "alt":"сгб"
+        },
+        {
+          "name": "Алексей Есин",
+          "position": "Специалист отдела маркетинга",
+          "img":"http://lorempixel.com/206/206/",
+          "alt":"сгб"
+        },
+        {
+          "name": "Илья Розанов",
+          "position": "Специалист технической поддержки",
+          "img":"http://lorempixel.com/206/206/",
+          "alt":"сгб"
+        },
+        {
+          "name": "Илья Розанов",
+          "position": "Специалист технической поддержки",
+          "img":"http://lorempixel.com/206/206/",
+          "alt":"сгб"
+        },
+        {
+          "name": "Илья Розанов",
+          "position": "Специалист технической поддержки",
+          "img":"http://lorempixel.com/206/206/",
+          "alt":"сгб"
+        }
+      ]
+    },
+    "job":{
+      "title":"Работа<br> в стройматик",
+      "description":"Приглашаем в свою команду. Мы знаем, как добиться успеха. Присоединяйся, вдохновляйся и реализуй себя!", 
+      "link_name": "посмотреть вакансии",
+      "img":"http://lorempixel.com/1440/686/"
+    },
+    "awards":{
+      "title":"Наши награды",
+      "list":[
+        {
+          "thumbnail":"http://lorempixel.com/317/427/",
+          "img":"https://static.tildacdn.com/tild6162-3865-4937-b133-653734663035/09.jpg",
+          "alt":""
+        },
+        {
+          "thumbnail":"http://lorempixel.com/317/427/",
+          "img":"http://lorempixel.com/317/427/",
+          "alt":"сгб"
+        },
+        {
+          "thumbnail":"http://lorempixel.com/317/427/",
+          "img":"https://static.tildacdn.com/tild3938-6632-4039-b764-633736386133/02.jpg",
+          "alt":"сгб"
+        },
+        {
+          "thumbnail":"http://lorempixel.com/317/427/",
+          "img":"http://lorempixel.com/317/427/",
+          "alt":"сгб"
+        },
+        {
+          "thumbnail":"http://lorempixel.com/317/427/",
+          "img":"http://lorempixel.com/317/427/",
+          "alt":"сгб"
+        },
+        {
+          "thumbnail":"http://lorempixel.com/317/427/",
+          "img":"http://lorempixel.com/317/427/",
+          "alt":"сгб"
+        }        
+      ]
+    },
+    "news":{ 
+      "title":"Новости",
+      "list":[
+        {
+          "img":"http://lorempixel.com/599/337/",
+          "alt":"сгб",
+          "name": "Почему строительные компании доверяют именно нам и выбирают сваебойные установки 'Стройматик'?!",
+          "alias": "ghgfh",
+          "date": 232142343245
+        },
+        {
+          "img":"http://lorempixel.com/599/337/",
+          "alt":"сгб",
+          "name": "Почему строительные компании доверяют именно нам и выбирают сваебойные установки 'Стройматик'?!",
+          "alias": "jhkujh66",
+          "date": 23214234324
+        }
+      ]
+    }
+  },
+  "franchise":{
+    "main_screen":{
+      "title":"ФРАНШИЗА СТРОЙМАТИК",
+      "description":"Cтаньте частью успешной строительной сети и зарабатывайте от 200 000 ₽ в месяц", 
+      "link_name": "Оставить заявку",
+      "list":[
+        {
+          "img":"http://lorempixel.com/908/686/",
+          "alt":"сгб"
+        },
+        {
+          "img":"http://lorempixel.com/909/686/",
+          "alt":"сгб"
+        },
+        {
+          "img":"http://lorempixel.com/910/686/",
+          "alt":"сгб"
+        }
+      ]
+    },    
+    "promo":{
+      "text": "<p>ОТКРОЙТЕ СОБСТВЕННЫЙ БИЗНЕС ПО ВОЗВЕДЕНИЮ ФУНДАМЕНТОВ</p>",
+      "video_id": "bBRTDSLzm6I"
+    },
+    "map":{
+      "title": "Карта свободных<br> регионов",
+      "regions":[
+        {
+          "title": "Сеть франшиз",
+          "active": false,
+          "list":[
+            {
+              "name": "Архангельск",
+              "coords": [64.539911, 40.515762],
+              "icon": false
+            },
+            {
+              "name": "Волгоград",
+              "coords": [48.707067, 44.516975],
+              "icon": false
+            },
+            {
+              "name": "Уфа",
+              "coords": [54.735152, 55.958736],
+              "icon": false
+            },
+            {
+              "name": "Калининград",
+              "coords": [54.710162, 20.510137],
+              "icon": false
+            }
+          ]
+        },
+        {
+          "title": "Свободные регионы конфиденциальности",
+          "active": false,
+          "list":[
+            {
+              "name": "Архангельск",
+              "coords": [64.539911, 40.515762],
+              "icon": false
+            },
+            {
+              "name": "Волгоград",
+              "coords": [48.707067, 44.516975],
+              "icon": false
+            },
+            {
+              "name": "Уфа",
+              "coords": [54.735152, 55.958736],
+              "icon": false
+            },
+            {
+              "name": "Калининград",
+              "coords": [54.710162, 20.510137],
+              "icon": false
+            },
+            {
+              "name": "Якутск",
+              "coords": [62.027221, 129.732178],
+              "icon": false
+            },
+            {
+              "name": "Ростов-на-Дону",
+              "coords": [47.222078, 39.720358],
+              "icon": false
+            },
+            {
+              "name": "Пенза",
+              "coords": [53.195042, 45.018316],
+              "active": false
+            },
+            {
+              "name": "Омск",
+              "coords": [54.989347, 73.368221],
+              "icon": false
+            },
+            {
+              "name": "Беларусь",
+              "coords": [53.902496, 27.561481],
+              "icon": false
+            },
+            {
+              "name": "ХМАО",
+              "coords": [61.003180, 69.018902],
+              "icon": false
+            },
+            {
+              "name": "Сургут",
+              "coords": [61.254035, 73.396230],
+              "icon": false
+            },
+            {
+              "name": "Казахстан",
+              "coords": [51.128207, 71.430411],
+              "icon": false
+            }
+          ]
+        }
+        
+      ]
+    },
+    "franchise_advantage":{
+      "title": "СТАВ НАШИМ ПАРТНЁРОМ ВЫ ПОЛУЧАЕТЕ",
+      "list":[
+        "Собственную фирму в строительной сфере с международным именем",
+        "Быстрое обучение основам бизнеса и строительным стандартам",
+        "Готовую бизнес-модель на выгодных финансовых условиях",
+        "Поддержку команды специалистов технический специалист, строитель, отдел сбыта и маркетинга",
+        "Маркетинговые инструменты, продающий сайт и рекламные материалы",
+        "Оборудование и технологию самые эффективные на рынке"
+      ]
+    },
+    "step":{
+      "title": "Шаги для запуска успешного бизнеса",
+      "list":[
+        "Подписание договора, оплата оборудования и франшизы",
+        "Обучение",
+        "Поиск помещения под офис",
+        "Организация документооборота",
+        "Реклама и маркетинг",
+        "Финальные штрихи"
+      ]
+    },
+    "video_comment":{
+      "title": "Отзывы",
+      "link_name": "больше отзывов",
+      "link_alias": "otzyvy",
+      "list":[
+        {
+          "type": "video",
+          "hashtag_list":[
+            {
+              "title": "#Отзывы", 
+              "alias": "otzyvy "
+            },
+            {
+              "title": "#Видео", 
+              "alias": "video "
+            }
+          ],
+          "video_id":"twdgCRea50U",
+          "img":"",
+          "alt":"",
+          "title": "Игорь, Франчайзи",
+          "subtitle": "Петрозаводск",
+          "date": 23214234324,
+          "alias": "dfg"
+        },
+        {
+          "type": "video",
+          "hashtag_list":[
+            {"title": "Отзывы", "alias": "reviews "}
+          ],
+          "video_id":"twdgCRea50U",
+          "img":"",
+          "alt":"",
+          "title": "Игорь, Франчайзи",
+          "subtitle": "Петрозаводск",
+          "date": 23214234324,
+          "alias": "dfg"
+        },
+        {
+          "type": "video",
+          "hashtag_list":[
+            {
+              "title": "Отзывы", 
+              "alias": "reviews "
+            }
+          ],
+          "video_id":"twdgCRea50U",
+          "img":"",
+          "alt":"",
+          "title": "Игорь, Франчайзи",
+          "subtitle": "Петрозаводск",
+          "date": 23214234324,
+          "alias": "fdgdg"
+        }
+      ]
+    }
+  },
+  "form_auth":{
+    "title": "Вход",
+    "controls":{
+      "login": "Email / Телефон",
+      "password": "Пароль",
+      "btn_name": "войти",
+      "errore_empty": "Поле обязательно для заполнения"
+    }
+  },
+  "form_password_recovery":{
+    "title": "Восстановление пароля",
+    "controls":{
+      "login": "Email / Телефон",
+      "btn_name": "отправить",
+      "errore_empty": "Поле обязательно для заполнения"
+    }
+  },
+  "form_application":{
+    "title": "Оставить заявку",
+    "controls":{
+      "name": "Ваше имя",
+      "phone": "Ваш телефон",
+      "email": "Ваш Email",
+      "city": "Город",
+      "comment": "Напишите о специфике вашего бизнеса",
+      "btn_name": "получить консультацию",
+      "privacy_policy": "<p>Я даю согласие на обработку моих персональных данных и принимаю условия <a href='#'> политики конфиденциальности</a></p>",
+      "errore_empty": "Поле обязательно для заполнения",
+      "errore_valid_email": "Некорректный формат"
+    }
+  },
+  "form_call":{
+    "title": "Заказать звонок",
+    "controls":{
+      "name": "Ваше имя",
+      "phone": "Ваш телефон",
+      "city": "Город",
+      "btn_name": "Отправить",
+      "privacy_policy": "<p>Я даю согласие на обработку моих персональных данных и принимаю условия <a href='#'> политики конфиденциальности</a></p>",
+      "errore_empty": "Поле обязательно для заполнения",
+      "errore_valid_email": "Некорректный формат"
+    }
+  },
+  "form_contacts":{
+    "title": "напишите нам",
+    "description":"<p>Отправьте ваш вопрос  и наши специалисты дадут вам подробную консультацию.</p>", 
+    "controls":{
+      "name": "Ваше имя",
+      "phone": "Ваш телефон",
+      "email": "Ваш Email",
+      "city": "Город",
+      "comment": "Какой вопрос вас интересует?",
+      "btn_name": "получить консультацию",
+      "privacy_policy": "<p>Я даю согласие на обработку моих персональных данных и принимаю условия <a href='#'> политики конфиденциальности</a></p>",
+      "errore_empty": "Поле обязательно для заполнения",
+      "errore_valid_email": "Некорректный формат"
+    }
+  },
+  "form_buyers":{
+    "title": "Получить консультацию",
+    "description":"<p>Оставьте свои контактные данные и наши специалисты дадут вам подробную консультацию.</p>", 
+    "controls":{
+      "name": "Ваше имя",
+      "phone": "Ваш телефон",
+      "email": "Ваш Email",
+      "city": "Город",
+      "comment": "Напишите о специфике вашего бизнеса",
+      "btn_name": "получить консультацию",
+      "privacy_policy": "<p>Я даю согласие на обработку моих персональных данных и принимаю условия <a href='#'> политики конфиденциальности</a></p>",
+      "errore_empty": "Поле обязательно для заполнения",
+      "errore_valid_email": "Некорректный формат"
+    }
+  },
+  "form_job":{
+    "title": "хочу здесь<br> работать",
+    "description":"<p>Не нашли подходящую вакансию, но хотите у нас работать? Пришлите резюме, мы обязательно его рассмотрим!</p>", 
+    "controls":{
+      "name": "Ваше ФИО",
+      "position": "На какую должность претендуете",
+      "phone": "Ваш телефон",
+      "email": "Ваш Email",
+      "city": "Город",
+      "file_info": "Загрузите файл в формате .pdf или .doc",
+      "file_control": "Выбрать файл",
+      "btn_name": "отправить",
+      "privacy_policy": "<p>Я даю согласие на обработку моих персональных данных и принимаю условия <a href='#'> политики конфиденциальности</a></p>",
+      "errore_empty": "Поле обязательно для заполнения",
+      "errore_valid_email": "Некорректный формат"
+    }
+  },
+  "form_franchise":{
+    "title": "Получить консультацию",
+    "description":"<p>Оставьте свои контактные данные и наши специалисты дадут вам подробную консультацию.</p>", 
+    "controls":{
+      "name": "Ваше имя",
+      "phone": "Ваш телефон",
+      "email": "Ваш Email",
+      "city": "Город",
+      "comment": "Напишите о специфике вашего бизнеса",
+      "btn_name": "получить консультацию",
+      "privacy_policy": "<p>Я даю согласие на обработку моих персональных данных и принимаю условия <a href='#'> политики конфиденциальности</a></p>",
+      "errore_empty": "Поле обязательно для заполнения",
+      "errore_valid_email": "Некорректный формат"
+    }
+  },
+  "page_privacy_policy":{
+    "text": "<p>sdfdsf</p>"
+  },
+  "catalog_auth":{ 
+    "title":"Вы уже используете установку Стройматик?",
+    "description":"<p>В вашем личном кабинете содержиться важная информация для вас</p>", 
+    "btn_name": "Оставить заявку",
+    "img":"http://lorempixel.com/863/552/",
+    "alt":"картинка"    
+  },
+  "form_catalog_detail":{
+    "title": "Получить консультацию",
+    "description":"<p>Оставьте свои контактные данные и наши специалисты дадут вам подробную консультацию.</p>", 
+    "controls":{
+      "name": "Ваше имяяя",
+      "phone": "Ваш телефон",
+      "email": "Ваш Email",
+      "city": "Город",
+      "comment": "Напишите о специфике вашего бизнеса",
+      "btn_name": "получить консультацию",
+      "privacy_policy": "<p>Я даю согласие на обработку моих персональных данных и принимаю условия <a href='#'> политики конфиденциальности</a></p>",
+      "errore_empty": "Поле обязательно для заполнения",
+      "errore_valid_email": "Некорректный формат"
+    }
+  },
+  "catalog_detail":{ 
+    "name": "СТРОЙМАТИК СГК-200",
+    "description":"Профессиональная модель для выполнения больших объёмов работы", 
+    "link_name": "Оставить заявку",
+    "video":{
+      "name": "Видеообзор СТРОЙМАТИК СГК-200",
+      "video_id": "PQpZZn3-UI8"
+    },    
+    "model_3d": "<script async src='https://api.cappasity.com/api/player/cappasity-ai'></script><iframe allowfullscreen mozallowfullscreen='true' webkitallowfullscreen='true' width='100%' height='100%' frameborder='0' style='border:0;' src='https://api.cappasity.com/api/player/4b1cf700-924c-434f-ad96-ac965cb8e6f2/embedded?autorun=0&closebutton=1&logo=1&analytics=1&enablestoreurl=0&hidehints=0&&autorotate=0&autorotatetime=10.0&autorotatedelay=2.0&autorotatedir=1&hidefullscreen=1&hideautorotateopt=1&hidesettingsbtn=0&enableimagezoom=1&zoomquality=1&hidezoomopt=0&arbutton=1'></iframe>",
+    "video_comment":{
+      "title": "Отзывы",
+      "link_name": "больше отзывов",
+      "list":[
+        {
+          "type": "video",
+          "hashtag_list":[
+            {"title": "Отзывы", "alias": "reviews "}
+          ],
+          "video_id":"twdgCRea50U",
+          "img":"",
+          "alt":"",
+          "title": "Игорь, Франчайзи",
+          "subtitle": "Петрозаводск",
+          "date": 23214234324,
+          "alias": "fdgdg"
+        },
+        {
+          "type": "video",
+          "hashtag_list":[
+            {"title": "Отзывы", "alias": "reviews "}
+          ],
+          "video_id":"twdgCRea50U",
+          "img":"",
+          "alt":"",
+          "title": "Игорь, Франчайзи",
+          "subtitle": "Петрозаводск",
+          "date": 23214234324,
+          "alias": "fdgdg"
+        },
+        {
+          "type": "video",
+          "hashtag_list":[
+            {"title": "Отзывы", "alias": "reviews "}
+          ],
+          "video_id":"twdgCRea50U",
+          "img":"",
+          "alt":"",
+          "title": "Игорь, Франчайзи",
+          "subtitle": "Петрозаводск",
+          "date": 23214234324,
+          "alias": "fdgdg"
+        }
+      ]
+    },
+    "faq":{
+      "title": "Вопросы и ответы",
+      "btn_name": "оставить заявку",
+      "link_name": "Показать ещё",
+      "list":[
+        {
+          "show_question": false,
+          "show_answer": false,
+          "question": "1 Какие сваи выбрать – винтовые или забивные?",
+          "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"
+        },
+        {
+          "show_question": false,
+          "show_answer": false,
+          "question": "2 Какие сваи выбрать – винтовые или забивные?",
+          "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"
+        },
+        {
+          "show_question": false,
+          "show_answer": false,
+          "question": "3 Какие сваи выбрать – винтовые или забивные?",
+          "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"
+        },
+        {
+          "show_question": false,
+          "show_answer": false,
+          "question": "4 Какие сваи выбрать – винтовые или забивные?",
+          "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"
+        },
+        {
+          "show_question": false,
+          "show_answer": false,
+          "question": "5 Какие сваи выбрать – винтовые или забивные?",
+          "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"
+        },
+        {
+          "show_question": false,
+          "show_answer": false,
+          "question": "6 Какие сваи выбрать – винтовые или забивные?",
+          "answer": "<p>Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"
+        },
+        {
+          "show_question": false,
+          "show_answer": false,
+          "question": "7 Какие сваи выбрать – винтовые или забивные?",
+          "answer": "<p> 7 Точный срок зависит от количества свай. При средних показателях (15-20 шт на расстоянии 1,5-2,5 метра одна от другой) установка займет два дня.</p>"
+        }
+      ]
+    },
+    "certificates":{
+      "title": "Сертификаты",
+      "list":[
+        {
+          "name": "Сертификат Сертификат Сертификат",
+          "link_name": "Скачать",
+          "link": "text.txt"
+        },
+        {
+          "name": "Сертификат Сертификат",
+          "link_name": "Скачать",
+          "link": "text.txt"
+        },
+        {
+          "name": "Сертификат",
+          "link_name": "Скачать",
+          "link": "text.txt"
+        }
+      ]
+    },
+    "file_specifications": {
+      "btn_name": "скачать технические характеристики",
+      "file": "file.txt"
+    },
+    "specifications":{
+      "title": "Основные характеристики",
+      "list":[
+        {
+          "name": "Забиваемые сваи (сечение)",
+          "text": "Сечение 150*150, 200*200, 250*250 мм, длиной до 5 м (до 6 м с лидерной скважиной)"
+        },
+        {
+          "name": "Оснащение системой интеллектуальной автоматической забивки",
+          "text": "Да"
+        },
+        {
+          "name": "Скорость забивки",
+          "text": "До 80 ударов в минуту, от 3 до 20 мин на сваю"
+        },
+        {
+          "name": "Модернизированная гидравлическая система",
+          "text": "Бак 70 литров"
+        },
+        {
+          "name": "Усиленные аутригеры закрытого типа",
+          "text": "Ход 1000 мм для работы на крутых уклонах"
+        }
+      ]
+    }
+  },
+  "contact_main":{
+    "caption":{
+      "title": "Контакты",
+      "main_office": "Главный офис",
+      "service_centres": "Сервисные центры"
+    },
+    "phone_list": [
+      "8 (800) 550-15-28",
+      "8 (921) 134-03-06"
+    ],
+    "email_list": [
+      "sales@stroimatik.com",
+      "sales@stroimatik.com"
+    ],
+    "coordinates": [
+      {
+        "label": "main",
+        "coords": [56.052524903725796,92.89133958993524] 
+      },
+      {
+        "label": "",
+        "coords": [56.053774, 92.894505] 
+      },
+      {
+        "label": "",
+        "coords": [56.049876, 92.902265] 
+      }
+    ]
+
+  },
+  "video_blog":{
+    "title":"Сваебойная<br> установка в деле", 
+    "link_name": "смотреть еще",
+    "list":[
+      {
+        "type": "video",
+        "hashtag_list":[
+          {"title": "Видео", "alias": "video"}
+        ],
+        "video_id":"twdgCRea50U",
+        "img":"",
+        "alt":"",
+        "title": "Игорь, Франчайзи",
+        "subtitle": "",
+        "date": 2321423432,
+        "alias": "SGK_200_launch"
+      },
+      {
+        "type": "video",
+        "hashtag_list":[
+          {"title": "Видео", "alias": "video"}
+        ],
+        "video_id":"twdgCRea50U",
+        "img":"",
+        "alt":"",
+        "title": "Игорь, Франчайзи",
+        "subtitle": "Петрозаводск",
+        "date": 2321423432,
+        "alias": "SGK_200_launch"
+      },
+      {
+        "type": "video",
+        "hashtag_list":[
+          {"title": "Видео", "alias": "video"}
+        ],
+        "video_id":"twdgCRea50U",
+        "img":"",
+        "alt":"",
+        "title": "Игорь, Франчайзи",
+        "subtitle": "Петрозаводск",
+        "date": 2321423432,
+        "alias": "SGK_200_launch"
+      }
+    ]
+  },
+  "news_detail":{
+    "title": "Почему строительные компании доверяют именно нам и выбирают сваебойные установки 'Стройматик'?!",
+    "date": 23214234324,
+    "img":"http://lorempixel.com/908/617/",
+    "alt":"сгб",
+    "text": "<p>Мы первыми в мире разработали и создали мини-копер, предназначенный для забивки ж/б свай в частном строительстве.</p>",
+    "video_blog":{
+      "title":"Сваебойная установка в деле", 
+      "link_name": "смотреть еще",
+      "list":[
+        {
+          "type": "video",
+          "hashtag_list":[
+      {"title": "Видео", "alias": "video"}
+    ],
+          "video_id":"ghjhj",
+          "img":"",
+          "alt":"",
+          "title": "Игорь, Франчайзи",
+          "subtitle": "Петрозаводск",
+          "date": 2321423432,
+          "alias": "SGK_200_launch"
+        },
+        {
+          "type": "video",
+          "hashtag_list":[
+      {"title": "Видео", "alias": "video"}
+    ],
+          "video_id":"ghjhj",
+          "img":"",
+          "alt":"",
+          "title": "Игорь, Франчайзи",
+          "subtitle": "Петрозаводск",
+          "date": 2321423432,
+          "alias": "SGK_200_launch"
+        },
+        {
+          "type": "video",
+          "hashtag_list":[
+      {"title": "Видео", "alias": "video"}
+    ],
+          "video_id":"ghjhj",
+          "img":"",
+          "alt":"",
+          "title": "Игорь, Франчайзи",
+          "subtitle": "Петрозаводск",
+          "date": 2321423432,
+          "alias": "SGK_200_launch"
+        },
+        {
+          "type": "video",
+          "hashtag_list":[
+      {"title": "Видео", "alias": "video"}
+    ],
+          "video_id":"ghjhj",
+          "img":"",
+          "alt":"",
+          "title": "Игорь, Франчайзи",
+          "subtitle": "Петрозаводск",
+          "date": 2321423432,
+          "alias": "SGK_200_launch"
+        },
+        {
+          "type": "video",
+          "hashtag_list":[
+      {"title": "Видео", "alias": "video"}
+    ],
+          "video_id":"ghjhj",
+          "img":"",
+          "alt":"",
+          "title": "Игорь, Франчайзи",
+          "subtitle": "Петрозаводск",
+          "date": 2321423432,
+          "alias": "SGK_200_launch"
+        }
+      ]
+    }
+  },
+  "news":{ 
+    "title":"Актуальные новости строительного бизнеса и технологий",
+    "prev": "...",
+    "next": "ggh",
+    "list":[
+      {
+        "img":"http://lorempixel.com/599/337/",
+        "alt":"сгб",
+        "name": "Почему строительные компании доверяют именно нам и выбирают сваебойные установки 'Стройматик'?!",
+        "alias": "ghgfh",
+        "date": 232142343245
+      },
+      {
+        "img":"http://lorempixel.com/599/337/",
+        "alt":"сгб",
+        "name": "Почему строительные компании доверяют именно нам и выбирают сваебойные установки 'Стройматик'?!",
+        "alias": "jhkujh66",
+        "date": 23214234324
+      }
+    ]
+  },
+  "our_partners":{
+    "title":"Наши партнеры", 
+    "description":"<p>На оборудовании “Стройматик” успешно работают крупные строительные компании</p>", 
+    "main_partner_img": "http://lorempixel.com/315/205/",
+    "main_partner_alt": "леруа мерлен",
+    "main_partner_title": "Leroy Merlin — наш стратегический партнёр",
+    "main_partner_description": "Свайный ж/б фундамент по технологии 'Стройматик' можно заказать в любом из гипермаркетов сети",
+    "list":[
+      {
+        "img":"http://lorempixel.com/160/90/",
+        "alt":"сгб"
+      },
+      {
+        "img":"http://lorempixel.com/160/90/",
+        "alt":"сгб"
+      },
+      {
+        "img":"http://lorempixel.com/160/90/",
+        "alt":"сгб"
+      },
+      {
+        "img":"http://lorempixel.com/160/90/",
+        "alt":"сгб"
+      },
+      {
+        "img":"http://lorempixel.com/160/90/",
+        "alt":"сгб"
+      },
+      {
+        "img":"http://lorempixel.com/160/90/",
+        "alt":"сгб"
+      },
+      {
+        "img":"http://lorempixel.com/160/90/",
+        "alt":"сгб"
+      },
+      {
+        "img":"http://lorempixel.com/160/90/",
+        "alt":"сгб"
+      }
+    ]
+  },
+  "scope_application":{
+    "title":"Cфера<br> применения",     
+    "link_name": "посмотреть ещё",
+    "list":[
+      {
+        "src":"http://lorempixel.com/1222/688/",
+        "thumbnail":"http://lorempixel.com/611/344/",
+        "alt":"сгб",
+        "hashtag":"#Фундамент 1",        
+        "title": "1 Фундамент под дом из бруса. 2 этажа",
+        "text": "1 Особенности данного участка заключались в том, что он расположен на заливном луге. Местность болотистая. Было решено использовать 5 метровые сваи с шагом 2 -2.5 метра. Работы продолжались 2 дня, дополнительно смонтировали оголовки."
+      },
+      {
+        "src":"http://lorempixel.com/1222/688/",
+        "thumbnail":"http://lorempixel.com/611/344/",
+        "alt":"сгб",
+        "hashtag":"#Фундамент 2",        
+        "title": "2 Фундамент под дом из бруса",
+        "text": "2 Особенности данного участка заключались в том, что он расположен на заливном луге."
+      },
+      {
+        "src":"http://lorempixel.com/1222/688/",
+        "thumbnail":"http://lorempixel.com/611/344/",
+        "alt":"сгб",
+        "hashtag":"#Фундамент 3",
+        "title": "3 Фундамент под дом из бруса. 2 этажа",
+        "text": "3 Особенности данного участка заключались в том, что он расположен на заливном луге. Местность болотистая. Было решено использовать 5 метровые сваи с шагом 2 -2.5 метра. Работы продолжались 2 дня, дополнительно смонтировали оголовки.Особенности данного участка заключались в том, что он расположен на заливном луге. Местность болотистая. Было решено использовать 5 метровые сваи с шагом 2 -2.5 метра. Работы продолжались 2 дня, дополнительно смонтировали оголовки."
+      }
+    ]
+  },
+  "leasing":{
+    "title":"ОБОРУДОВАНИЕ<br> ДОСТУПНО В ЛИЗИНГ", 
+    "description":"У нас широкий список лизинговых партнёров – Вы легко подберете подходящие условия!", 
+    "list":[
+      {
+        "img":"http://lorempixel.com/166/56/",
+        "alt":"сгб"
+      },
+      {
+        "img":"http://lorempixel.com/166/56/",
+        "alt":"сименс"
+      },
+      {
+        "img":"http://lorempixel.com/166/56/",
+        "alt":"уралбизнеслизинг"
+      },
+      {
+        "img":"http://lorempixel.com/166/56/",
+        "alt":"унистрой"
+      },
+      {
+        "img":"http://lorempixel.com/166/56/",
+        "alt":"уралбизнеслизинг"
+      },
+      {
+        "img":"http://lorempixel.com/166/56/",
+        "alt":"унистрой"
+      },
+      {
+        "img":"http://lorempixel.com/166/56/",
+        "alt":"унистрой"
+      },
+      {
+        "img":"http://lorempixel.com/166/56/",
+        "alt":"уралбизнеслизинг"
+      },
+      {
+        "img":"http://lorempixel.com/166/56/",
+        "alt":"унистрой"
+      }
+    ]
+  },
+  "video_franchise_1":{
+    "text": "<p>Cтаньте частью успешной строительной сети и зарабатывайте от 200 000₽ в месяц</p>",
+    "video_id": "xJ5iHFSdAU4"
+  },
+  "video_franchise_2":{
+    "text": "<p>ОТКРОЙТЕ СОБСТВЕННЫЙ БИЗНЕС ПО ВОЗВЕДЕНИЮ ФУНДАМЕНТОВ</p>",
+    "video_id": "dfdfd"
+  },
+  "quiz":{ 
+    "title": "Подобрать установку<br> для бизнеса",
+    "description": "<p>Ответьте на 5 простых вопросов и узнайте какая установка подойдет именно вам!</p>",
+    "script": "<div data-marquiz-id='616d36c7507718003f1b5d5b'></div><script>(function(t, p) {window.Marquiz ? Marquiz.add([t, p]) : document.addEventListener('marquizLoaded', function() {Marquiz.add([t, p])})})('Inline', {id: '616d36c7507718003f1b5d5b', buttonText: 'Пройти тест', bgColor: '#eb3b00', textColor: '#fff', rounded: true, shadow: 'rgba(235, 59, 0, 0.5)', blicked: true, buttonOnMobile: true})</script>  <script async>    (function(w, d, s, o){      var j = d.createElement(s); j.async = true; j.src = '//script.marquiz.ru/v2.js';j.onload = function() {        if (document.readyState !== 'loading') Marquiz.init(o);        else document.addEventListener('DOMContentLoaded', function() {          Marquiz.init(o);        });      };      d.head.insertBefore(j, d.head.firstElementChild);    })(window, document, 'script', {        host: '//quiz.marquiz.ru',        region: 'eu',        id: '616d36c7507718003f1b5d5b',        autoOpen: false,        autoOpenFreq: 'once',        openOnExit: false,        disableOnMobile: false      }    );    </script>"
+  },
+  "franchise_main":{
+    "title": "Франшиза стройматик",
+    "description": "<p>На оборудовании “Стройматик” успешно работают крупные строительные компании</p>",
+    "list_title": "Став нашим партнером вы получаете",    
+    "link_name_franchise": "начать бизнес по франшизе",
+    "link__name_franchise_more": "посмотреть свободные регионы",
+    "list":[
+      {
+        "text":"Поддержку команды специалистов технический специалист, строитель, отдел сбыта и маркетинга",
+        "img":"https://sun9-11.userapi.com/impf/EmfpPnLXzVnp0SY8nURPyg13JIJqa-GWLQ54Lw/CiOWCQQABjU.jpg?size=55x55&quality=96&sign=7e4fe6a0833440943fb5baa503184d20&type=album",
+        "alt":"иконка"
+      },
+      {
+        "text":"Быстрое обучение основам бизнеса и строительным стандартам",
+        "img":"http://lorempixel.com/55/55/",
+        "alt":"иконка"
+      },
+      {
+        "text":"Собственную фирму в строительной сфере с международным именем",
+        "img":"http://lorempixel.com/55/55/",
+        "alt":"иконка"
+      },
+      {
+        "text":"Готовую бизнес-модель на выгодных финансовых условиях",
+        "img":"http://lorempixel.com/55/55/",
+        "alt":"иконка"
+      },
+      {
+        "text":"Маркетинговые инструменты, продающий сайт и рекламные материалы",
+        "img":"http://lorempixel.com/55/55/",
+        "alt":"иконка"
+      },
+      {
+        "text":"Оборудование и технологию самые эффективные на рынке",
+        "img":"http://lorempixel.com/55/55/",
+        "alt":"иконка"
+      }
+    ]
+  },
+  "why_buy":{
+    "title": "Почему нужно <br>купить сваебойную установку?",
+    "list":[
+      {
+        "title": "Широкий спектр использования",
+        "preview_text": "Малоэтажное жилое и коммерческое строительство, промышленные здания, ангары, опоры, настилы, заборы, дорожная инфраструктура и многое другое",
+        "img": "http://lorempixel.com/731/808/",
+        "alt": "картинка"
+      },
+      {
+        "title": "Cоотношение цены и качества",
+        "preview_text": "Малоэтажное жилое и коммерческое строительство, промышленные здания, ангары, опоры, настилы, заборы, дорожная инфраструктура и многое другое",
+        "img": "http://lorempixel.com/731/808/",
+        "alt": "картинка"
+      },
+      {
+        "title": "Всесезонная работа",
+        "preview_text": "Малоэтажное жилое и коммерческое строительство, промышленные здания, ангары, опоры, настилы, заборы, дорожная инфраструктура и многое другое",
+        "img": "http://lorempixel.com/731/808/",
+        "alt": "картинка"
+      }
+    ]
+  },  
+  "catalog_main_screen":{
+    "title":"Каталог",
+    "description":"Работаем с фундаментами с 2015 года. Мы первыми разработали и запустили в производство модель компактной сваебойной установки, сами с успехом ею пользуемся", 
+    "link_name": "Оставить заявку",
+    "list":[
+      {
+        "img":"https://psv4.userapi.com/c536436/u86647750/docs/d35/a653acb08ca1/Group_315.png?extra=xQreB3lpTd6vB5gwEFu3EFdQhFG284X5IJfNpvI24ZB40ocw84xjIEZAJchMLgJ_kW30A9BlC6suBvrrSSIeg55xXV9C9tYvJaxscwJHw3u5FGBaoyWczDTh_oN6H_xJpRcE012W7NXbfQRRK0p2xz_j",
+        "alt":"сгб",
+        "show": false
+      },
+      {
+        "img":"http://lorempixel.com/975/658/",
+        "alt":"сгб",
+        "show": false
+      },
+      {
+        "img":"http://lorempixel.com/975/658/",
+        "alt":"сгб",
+        "show": false
+      }
+    ]
+  },
+  "catalog_list":[
+    {
+      "name": "СТРОЙМАТИК СГК-150",
+      "alias": "111g",
+      "code": "150",
+      "short_description": "Прототип лёгкого самоходного копра в финальной Прототип лёгкого самоходного копра в финальной Прототип лёгкого самоходного копра в финальной Прототип лёгкого самоходного копра в финальной стадии разработки. Наименьшая цена и упрощённая комплектация – оптимальный вариант для входа в сваебойный бизнес",
+      "description": "<p>Профессиональная модель для выполнения больших объёмов работы</p><p>Профессиональная модель для выполнения больших объёмов работы</p><p>Профессиональная модель для выполнения больших объёмов работы</p><p>Профессиональная модель для выполнения больших объёмов работы</p><p>Профессиональная модель для выполнения больших объёмов работы</p><p>Профессиональная модель для выполнения больших объёмов работы</p><p>Профессиональная модель для выполнения больших объёмов работы</p><p>Профессиональная модель для выполнения больших объёмов работы</p><p>Профессиональная модель для выполнения больших объёмов работы</p> <ul><li>345345</li><li>fdgdfgfd</li><li>fdgdfgdfg</li></ul>",
+      "help_list":[
+        "Описание ключевого узла",
+        "конфиденциальности подсказка 2 Описание ключегого узла Описание ключегого узла Описание ключегого узла",
+        "подсказка 3",
+        "подсказка 4",
+        "подсказка 5",
+        "подсказка 6"
+      ]
+    },
+    {
+      "name": "СТРОЙМАТИК СГК-200",
+      "alias": "gfhbg",
+      "code": "200",      
+      "short_description": "Прототип лёгкого самоходного копра в финальной стадии разработки. Наименьшая цена и ",
+      "description": "<p>Профессиональная модель для выполнения больших объёмов работы</p><p>Профессиональная модель для выполнения больших объёмов работы</p><p>Профессиональная модель для выполнения больших объёмов работы</p><p>Профессиональная модель для выполнения больших объёмов работы</p><p>Профессиональная модель для выполнения больших объёмов работы</p><p>Профессиональная модель для выполнения больших объёмов работы</p><p>Профессиональная модель для выполнения больших объёмов работы</p><p>Профессиональная модель для выполнения больших объёмов работы</p><p>Профессиональная модель для выполнения больших объёмов работы</p> <ul><li>345345</li><li>fdgdfgfd</li><li>fdgdfgdfg</li></ul>",
+      "help_list":[
+        "подсказка 1",
+        "подсказка 2",
+        "подсказка 3",
+        "подсказка 4",
+        "подсказка 5",
+        "подсказка 6"
+      ]
+    },
+    {
+      "name": "СТРОЙМАТИК СГК-300",
+      "alias": "gfhbg",
+      "code": "300",
+      "short_description": "Прототип лёгкого самоходного копра в финальной стадии разработки. Наименьшая цена и упрощённая комплектация – оптимальный вариант для входа в сваебойный бизнес",
+      "description": "<p>Профессиональная модель для выполнения больших объёмов работы</p>",
+      "help_list":[
+        "подсказка 1",
+        "подсказка 2",
+        "подсказка 3",
+        "подсказка 4",
+        "подсказка 5",
+        "подсказка 6"
+      ]
+    },
+    {
+      "name": "СТРОЙМАТИК СГК-400",
+      "alias": "gfhbg",
+      "code": "400",
+      "short_description": "Прототип лёгкого самоходного копра в финальной стадии разработки. Наименьшая цена и упрощённая комплектация – оптимальный вариант для входа в сваебойный бизнес",
+      "description": "<p>Профессиональная модель для выполнения больших объёмов работы</p>",
+      "help_list":[
+        "подсказка 1",
+        "подсказка 2",
+        "подсказка 3",
+        "подсказка 4",
+        "подсказка 5",
+        "подсказка 6"
+      ]
+    }
+  ],
+  "main_screen_main_page":{
+    "title": "Мобильные сваебойные установки",
+    "description": "Самоходные гидравлические копры от создателей рынка забивных жб фундаментов для малоэтажного строительства",
+    "btn_name": "Оставить заявку",
+    "img":"http://lorempixel.com/996/555/",
+    "alt":"сгб",
+    "advantage":{
+      "title": "Преимущества оборудования “стройматик”",
+      "list":[
+        "Профессиональная разработка",
+        "Заводское производство",
+        "Постоянное совершенствование",
+        "Оригинальная система автоматизации",
+        "Оптимизированная конструкция бугеля",
+        "Поэтапный процесс покраски"
+      ]
+    }
+  },
+  "common":{
+    "logo_img": "http://lorempixel.com/176/46/",
+    "email": "sales@stroimatik.com",
+    "phone": "8 (800) 550-15-28",
+    "btn_name": "Заказать звонок",
+    "soc_net":[
+      {
+        "type": "vk",
+        "link": "vk.com"
+      },
+      {
+        "type": "instagram",
+        "link": "instagram.com"
+      },
+      {
+        "type": "facebook",
+        "link": "facebook.com"
+      },
+      {
+        "type": "youtube",
+        "link": "youtube.com"
+      }
+    ],
+    "copyright": "© 2021 - ООО 'СТРОЙМАТИК'<br>- <a href='privacy-policy'>политики конфиденциальности</a>",
+    "form_subscribe":{
+      "title": "Получайте информацию о новых моделях, модификациях и акциях на почту",
+      "controls":{
+        "email": "Укажите адрес эл. почты",
+        "errore_empty": "Поле обязательно для заполнения",
+        "errore_valid_email": "Некорректный формат",
+        "privacy_policy": "<p>Подписываясь на рассылку, вы соглашаетесь с условиями <a href='privacy-policy'>политики конфиденциальности</a></p>"
+      }
+    },
+    "bottom_menu":[
+      {
+        "link": "/catalog",
+        "name": "Каталог"
+      },
+      {
+        "link": "/buyers",
+        "name": "покупателям"
+      },
+      {
+        "link": "/franchise",
+        "name": "Франшиза"
+      },
+      {
+        "link": "/about/blog",
+        "name": "Блог"
+      },
+      {
+        "link": "/about",
+        "name": "О компании"
+      },
+      {
+        "link": "/about/news",
+        "name": "Новости"
+      }
+    ],
+    "top_menu":[
+      {
+        "link": "catalog",
+        "name": "Каталог",
+        "submenu": [
+          {
+            "link": "..",
+            "name": "Стройматик СГК-150",
+            "img": "http://lorempixel.com/127/82/"
+          },
+          {
+            "link": "..",
+            "name": "Стройматик СГК-200",
+            "img": "http://lorempixel.com/127/82/"
+          },
+          {
+            "link": "..",
+            "name": "Стройматик СГК-300",
+            "img": "http://lorempixel.com/127/82/"
+          },
+          {
+            "link": "..",
+            "name": "Стройматик СГК-400",
+            "img": "http://lorempixel.com/127/82/"
+          }
+        ]
+      },
+      {
+        "link": "/franchise",
+        "name": "Франшиза"
+      },
+      {
+        "link": "/about",
+        "name": "О компании",
+        "submenu":[
+          {
+            "link": "/about/news",
+            "name": "Новости"
+          },
+          {
+            "link": "/about/blog",
+            "name": "Блог"
+          },
+          {
+            "link": "/about/vacancies",
+            "name": "Работа"
+          }
+        ]
+      },
+      {
+        "link": "/buyers",
+        "name": "покупателям"
+      },
+      {
+        "link": "/contacts",
+        "name": "контакты"
+      }
+    ]
+  }
+}
+
